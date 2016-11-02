@@ -234,4 +234,4 @@ composer.phar
 # composer.lock
  
  ### NPM ###
- /node_modules
+ /node_modules/
