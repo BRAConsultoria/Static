@@ -1,0 +1,41 @@
+﻿{
+  "name": "static-resource-repository",
+  "version": "0.0.1",
+  "description": "Static Resource Repository",
+  "main": "",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-animate": "^1.5.8",
+    "angular-resource": "^1.5.8",
+    "angular-route": "^1.5.8",
+    "angular-sanitize": "^1.5.8",
+    "ngstorage": "^0.3.11",
+    "jquery": "3.1.1",
+    "perfect-scrollbar": "0.6.12",
+    "ng-bootstrap-submenu": "^1.0.10",
+    "bootstrap": "3.3.7",
+    "material-design-iconic-font": "2.2.0",
+	"material-design-icons": "3.0.1"	
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BRAConsultoria/Static.git"
+  },
+  "keywords": [
+    "angularjs"
+  ],
+  "author": "Onyx",
+  "contributors": [
+	"Vinicius Pozzebon <vpozzebon@gmail.com> (http://vpozzebon.com.br)",
+    "José Francisco <silvaivctd@gmail.com> (http://jfrancisco.eti.br)"
+  ],
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/BRAConsultoria/Static/issues"
+  },
+  "homepage": "https://github.com/BRAConsultoria/Static#readme"
+}
