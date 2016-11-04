@@ -1,0 +1,307 @@
+/** Todas as apps **/
+.be-top-header .navbar-header .navbar-brand {
+	background-position: center;
+}
+.material-icons.middle {
+    vertical-align: middle;
+}
+.material-icons.md-16 { 
+	font-size: 16px; 
+}
+.material-icons.md-18 { 
+	font-size: 18px; 
+}
+.material-icons.md-24 { 
+	font-size: 24px; 
+}
+.material-icons.md-36 { 
+	font-size: 36px; 
+}
+.material-icons.md-48 { 
+	font-size: 48px; 
+}
+.logo-top-header > app-logo > img {
+	max-width: 105px;
+	overflow: hidden;
+}
+
+/** app Login **/
+.appLogin-bar {
+	background-color: #4285f4;
+}
+.navbar-header.appLogin-bar {
+	background-color: #FFFFFF;
+}
+.page-title.appLogin-bar > span {
+	color: #FFFFFF;
+}
+.material-icons.appLogin-bar {
+	color: #FFFFFF;
+}
+.appLogin-logo {
+	background-image: url('../img/logo.png'); 
+	background-size: 150px;
+	background-repeat: no-repeat;
+	width: 201px;
+	height: 40px;
+	line-height: 40px;
+	background-position: center;
+	padding: 0px;
+	margin-top: 20px;
+	display: inline-block;
+}
+.splash-description {
+	font-size: 16px;
+}
+
+/** app Dashboard **/
+.appDashboard-bar {
+	background-color: #FFFFFF;
+}
+.navbar-header.appDashboard-bar {
+	background-color: #FFFFFF;
+}
+.page-title.appDashboard-bar > span {
+	/*color: #FFFFFF;*/
+}
+.material-icons.appDashboard-bar {
+	color: #FFFFFF;
+}
+
+/** app Social **/
+.appSocial-bar {
+	background-color: #800080;
+}
+.navbar-header.appSocial-bar {
+	background-color: #FFFFFF;
+}
+.page-title.appSocial-bar > span {
+	color: #FFFFFF;
+}
+.material-icons.appSocial-bar {
+	color: #FFFFFF;
+}
+.social-icon {
+	color: #800080;
+}
+
+/** app Governanca **/
+.appGovernanca-bar {
+	background-color: #800080;
+}
+.navbar-header.appGovernanca-bar {
+	background-color: #FFFFFF;
+}
+.page-title.appGovernanca-bar > span {
+	color: #FFFFFF;
+}
+.material-icons.appGovernanca-bar {
+	color: #FFFFFF;
+}
+.governanca-icon {
+	color: #3cb371;
+}
+
+/** app Rh **/
+.appRh-bar {
+	background-color: #2f2f7e;
+}
+.navbar-header.appRh-bar {
+	background-color: #FFFFFF;
+}
+.page-title.appRh-bar > span {
+	color: #FFFFFF;
+}
+.material-icons.appRh-bar {
+	color: #FFFFFF;
+}
+.rh-icon {
+	color: #2f2f7e;
+}
+
+/** app Fopag **/
+.appFopag-bar {
+	background-color: #2f2f7e;
+}
+.navbar-header.appFopag-bar {
+	background-color: #FFFFFF;
+}
+.page-title.appFopag-bar > span {
+	color: #FFFFFF;
+}
+.material-icons.appFopag-bar {
+	color: #FFFFFF;
+}
+.fopag-icon {
+	color: #cd5b45;
+}
+
+/** app OnyxPrev **/
+.appOnyxPrev-bar {
+	background-color: #FB8C00;
+}
+.navbar-header.appOnyxPrev-bar {
+	background-color: #FFFFFF;
+}
+.page-title.appOnyxPrev-bar > span {
+	color: #FFFFFF;
+}
+.material-icons.appOnyxPrev-bar {
+	color: #FFFFFF;
+}
+.onyxprev-icon {
+	color: #FB8C00;
+}
+
+/** app Recad **/
+.appRecad-bar {
+	background-color: #66cdaa;
+}
+.navbar-header.appRecad-bar {
+	background-color: #FFFFFF;
+}
+.page-title.appRecad-bar > span {
+	color: #FFFFFF;
+}
+.material-icons.appRecad-bar {
+	color: #FFFFFF;
+}
+.recad-icon {
+	color: #66cdaa;
+}
+
+/** app Protocolo **/
+.appProtocolo-bar {
+	background-color: #ffc04c;
+}
+.navbar-header.appProtocolo-bar {
+	background-color: #FFFFFF;
+}
+.page-title.appProtocolo-bar > span {
+	color: #FFFFFF;
+}
+.material-icons.appProtocolo-bar {
+	color: #FFFFFF;
+}
+.protocolo-icon {
+	color: #ffc04c;
+}
+
+/** app Website **/
+.appWebsite-bar {
+	background-color: #ff7f50;
+}
+.navbar-header.appWebsite-bar {
+	background-color: #FFFFFF;
+}
+.page-title.appWebsite-bar > span {
+	color: #FFFFFF;
+}
+.material-icons.appWebsite-bar {
+	color: #FFFFFF;
+}
+.website-icon {
+	color: #ff7f50;
+}
+
+/** app NFS-e **/
+.appNfse-bar {
+	background-color: #400040;
+}
+.navbar-header.appNfse-bar {
+	background-color: #FFFFFF;
+}
+.page-title.appNfse-bar > span {
+	color: #FFFFFF;
+}
+.material-icons.appNfse-bar {
+	color: #FFFFFF;
+}
+.nfse-icon {
+	color: #400040;
+}
+
+/** app Licitacoes **/
+.appLicitacoes-bar {
+	background-color: #ff7373;
+}
+.navbar-header.appLicitacoes-bar {
+	background-color: #FFFFFF;
+}
+.page-title.appLicitacoes-bar > span {
+	color: #FFFFFF;
+}
+.material-icons.appLicitacoes-bar {
+	color: #FFFFFF;
+}
+.licitacoes-icon {
+	color: #ff7373;
+}
+
+/** app Drive **/
+.appDrive-bar {
+	background-color: #3acecc;
+}
+.navbar-header.appDrive-bar {
+	background-color: #FFFFFF;
+}
+.page-title.appDrive-bar > span {
+	color: #FFFFFF;
+}
+.material-icons.appDrive-bar {
+	color: #FFFFFF;
+}
+.drive-icon {
+	color: #3acecc;
+}
+
+/** app Atuarial **/
+.appAtuarial-bar {
+	background-color: #483d8b;
+}
+.navbar-header.appAtuarial-bar {
+	background-color: #FFFFFF;
+}
+.page-title.appAtuarial-bar > span {
+	color: #FFFFFF;
+}
+.material-icons.appAtuarial-bar {
+	color: #FFFFFF;
+}
+.atuarial-icon {
+	color: #483d8b;
+}
+
+/** app Biometria **/
+.appBiometria-bar {
+	background-color: #f442eb;
+}
+.navbar-header.appBiometria-bar {
+	background-color: #FFFFFF;
+}
+.page-title.appBiometria-bar > span {
+	color: #FFFFFF;
+}
+.material-icons.appBiometria-bar {
+	color: #FFFFFF;
+}
+.biometria-icon {
+	color: #f442eb;
+}
+
+/** app Invest **/
+.appInvest-bar {
+	background-color: #4285f4;
+}
+.navbar-header.appInvest-bar {
+	background-color: #FFFFFF;
+}
+.page-title.appInvest-bar > span {
+	color: #FFFFFF;
+}
+.material-icons.appInvest-bar {
+	color: #FFFFFF;
+}
+.invest-icon {
+	color: #4285f4;
+}
