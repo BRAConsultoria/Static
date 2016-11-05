@@ -305,3 +305,20 @@
 .invest-icon {
 	color: #4285f4;
 }
+
+/** app Consig **/
+.appConsig-bar {
+	background-color: #ad854a;
+}
+.navbar-header.appConsig-bar {
+	background-color: #FFFFFF;
+}
+.page-title.appConsig-bar > span {
+	color: #FFFFFF;
+}
+.material-icons.appConsig-bar {
+	color: #FFFFFF;
+}
+.consig-icon {
+	color: #ad854a;
+}
