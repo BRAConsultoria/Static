@@ -2,27 +2,58 @@
 .be-top-header .navbar-header .navbar-brand {
 	background-position: center;
 }
-.material-icons.middle {
+.middle {
     vertical-align: middle;
 }
-.material-icons.md-16 { 
+.md-16 { 
 	font-size: 16px; 
 }
-.material-icons.md-18 { 
+.md-18 { 
 	font-size: 18px; 
 }
-.material-icons.md-24 { 
+.md-24 { 
 	font-size: 24px; 
 }
-.material-icons.md-36 { 
+.md-36 { 
 	font-size: 36px; 
 }
-.material-icons.md-48 { 
+.md-48 { 
 	font-size: 48px; 
+}
+.md-64 {
+	font-size: 64px;
 }
 .logo-top-header > app-logo > img {
 	max-width: 105px;
 	overflow: hidden;
+}
+.label-dashboard {
+	margin-bottom: -20px;
+	padding-top: 10px;
+	color: #000000;
+}
+.apps-block {
+	color: #000000;
+	cursor: pointer;
+	display: none;
+	width: 145px;
+	height: 150px;
+	text-align: center;
+}
+.apps-block:hover {
+    color: #FB8C00;
+    cursor: pointer;
+    background-color: #EFEFEF;
+    text-align: center;
+}
+.apps-block > a {
+	color: #666666;
+}
+.padding-40 {
+	padding: 40px;
+}
+.margin-10 {
+	margin: 10px;
 }
 
 /** app Login **/
@@ -66,6 +97,9 @@
 }
 .material-icons.appDashboard-bar {
 	color: #FFFFFF;
+}
+.material-icons.social {
+	color: #800080;
 }
 
 /** app Social **/
@@ -327,4 +361,10 @@
 }
 .consig-icon {
 	color: #ad854a;
+}
+.icon-dashboard {
+	margin: 5px;
+}
+.icon-rounded {
+	border-radius: 20px;
 }
