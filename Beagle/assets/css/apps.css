@@ -1,44 +1,44 @@
 /** Todas as apps **/
 .be-top-header .navbar-header .navbar-brand {
-	background-position: center;
+    background-position: center;
 }
 .middle {
     vertical-align: middle;
 }
 .md-16 { 
-	font-size: 16px; 
+    font-size: 16px; 
 }
 .md-18 { 
-	font-size: 18px; 
+    font-size: 18px; 
 }
 .md-24 { 
-	font-size: 24px; 
+    font-size: 24px; 
 }
 .md-36 { 
-	font-size: 36px; 
+    font-size: 36px; 
 }
 .md-48 { 
-	font-size: 48px; 
+    font-size: 48px; 
 }
 .md-64 {
-	font-size: 64px;
+    font-size: 64px;
 }
 .logo-top-header > app-logo > img {
-	max-width: 105px;
-	overflow: hidden;
+    max-width: 105px;
+    overflow: hidden;
 }
 .label-dashboard {
-	margin-bottom: -20px;
-	padding-top: 10px;
-	color: #000000;
+    margin-bottom: -20px;
+    padding-top: 10px;
+    color: #000000;
 }
 .apps-block {
-	color: #000000;
-	cursor: pointer;
-	display: none;
-	width: 145px;
-	height: 150px;
-	text-align: center;
+    color: #000000;
+    cursor: pointer;
+    display: none;
+    width: 145px;
+    height: 150px;
+    text-align: center;
 }
 .apps-block:hover {
     color: #FB8C00;
@@ -47,327 +47,434 @@
     text-align: center;
 }
 .apps-block > a {
-	color: #666666;
+    color: #666666;
 }
 .padding-40 {
-	padding: 40px;
+    padding: 40px;
 }
 .margin-10 {
-	margin: 10px;
+    margin: 10px;
 }
 
 /** app Login **/
 .appLogin-bar {
-	background-color: #4285f4;
+    background-color: #4285f4;
 }
 .navbar-header.appLogin-bar {
-	background-color: #FFFFFF;
+    background-color: #FFFFFF;
 }
 .page-title.appLogin-bar > span {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .material-icons.appLogin-bar {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .appLogin-logo {
-	background-image: url('../img/logo.png'); 
-	background-size: 150px;
-	background-repeat: no-repeat;
-	width: 201px;
-	height: 40px;
-	line-height: 40px;
-	background-position: center;
-	padding: 0px;
-	margin-top: 20px;
-	display: inline-block;
+    background-image: url('../img/logo.png'); 
+    background-size: 150px;
+    background-repeat: no-repeat;
+    width: 201px;
+    height: 40px;
+    line-height: 40px;
+    background-position: center;
+    padding: 0px;
+    margin-top: 20px;
+    display: inline-block;
 }
 .splash-description {
-	font-size: 16px;
+    font-size: 16px;
 }
 
 /** app Dashboard **/
 .appDashboard-bar {
-	background-color: #FFFFFF;
+    background-color: #FFFFFF;
 }
 .navbar-header.appDashboard-bar {
-	background-color: #FFFFFF;
+    background-color: #FFFFFF;
 }
 .page-title.appDashboard-bar > span {
-	/*color: #FFFFFF;*/
+    /*color: #FFFFFF;*/
 }
 .material-icons.appDashboard-bar {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .material-icons.social {
-	color: #800080;
+    color: #800080;
 }
 .dashboard-icon {
-	color: #000000;
+    color: #000000;
 }
 
 /** app Social **/
 .appSocial-bar {
-	background-color: #800080;
+    background-color: #800080;
 }
 .navbar-header.appSocial-bar {
-	background-color: #FFFFFF;
+    background-color: #FFFFFF;
 }
 .page-title.appSocial-bar > span {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .material-icons.appSocial-bar {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .menuSocial-bar {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .social-icon {
-	color: #800080;
+    color: #800080;
 }
-
+.appSocial-bar .be-right-navbar{
+    background-color: #800080!important;
+    border-bottom-color: #800080!important;
+}
 /** app Governanca **/
 .appGovernanca-bar {
-	background-color: #800080;
+    background-color: #800080;
 }
 .navbar-header.appGovernanca-bar {
-	background-color: #FFFFFF;
+    background-color: #FFFFFF;
 }
 .page-title.appGovernanca-bar > span {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .material-icons.appGovernanca-bar {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .governanca-icon {
-	color: #3cb371;
+    color: #3cb371;
+}
+.appGovernanca-bar .be-right-navbar{
+    background-color: #3cb371!important;
+    border-bottom-color: #3cb371!important;
 }
 
 /** app Rh **/
 .appRh-bar {
-	background-color: #2f2f7e;
+    background-color: #2f2f7e;
 }
 .navbar-header.appRh-bar {
-	background-color: #FFFFFF;
+    background-color: #FFFFFF;
 }
 .page-title.appRh-bar > span {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .material-icons.appRh-bar {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .rh-icon {
-	color: #2f2f7e;
+    color: #2f2f7e;
 }
+.appRh-bar .be-right-navbar{
+    background-color: #2f2f7e!important;
+    border-bottom-color: #2f2f7e!important;
+}
+
 
 /** app Fopag **/
 .appFopag-bar {
-	background-color: #2f2f7e;
+    background-color: #2f2f7e;
 }
 .navbar-header.appFopag-bar {
-	background-color: #FFFFFF;
+    background-color: #FFFFFF;
 }
 .page-title.appFopag-bar > span {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .material-icons.appFopag-bar {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .fopag-icon {
-	color: #cd5b45;
+    color: #cd5b45;
+}
+.appFopag-bar .be-right-navbar{
+    background-color: #cd5b45!important;
+    border-bottom-color: #cd5b45!important;
 }
 
 /** app OnyxPrev **/
 .appOnyxPrev-bar {
-	background-color: #FB8C00;
+    background-color: #FB8C00;
 }
 .navbar-header.appOnyxPrev-bar {
-	background-color: #FFFFFF;
+    background-color: #FFFFFF;
 }
 .page-title.appOnyxPrev-bar > span {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .material-icons.appOnyxPrev-bar {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .onyxprev-icon {
-	color: #FB8C00;
+    color: #FB8C00;
+}
+.appOnyxPrev-bar .be-right-navbar{
+    background-color: #FB8C00!important;
+    border-bottom-color: #FB8C00!important;
 }
 
 /** app Recad **/
 .appRecad-bar {
-	background-color: #66cdaa;
+    background-color: #66cdaa;
 }
 .navbar-header.appRecad-bar {
-	background-color: #FFFFFF;
+    background-color: #FFFFFF;
 }
 .page-title.appRecad-bar > span {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .material-icons.appRecad-bar {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .recad-icon {
-	color: #66cdaa;
+    color: #66cdaa;
+}
+.appRecad-bar .be-right-navbar{
+    background-color: #66cdaa!important;
+    border-bottom-color: #66cdaa!important;
 }
 
 /** app Protocolo **/
 .appProtocolo-bar {
-	background-color: #ffc04c;
+    background-color: #ffc04c;
 }
 .navbar-header.appProtocolo-bar {
-	background-color: #FFFFFF;
+    background-color: #FFFFFF;
 }
 .page-title.appProtocolo-bar > span {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .material-icons.appProtocolo-bar {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .protocolo-icon {
-	color: #ffc04c;
+    color: #ffc04c;
+}
+.appProtocolo-bar .be-right-navbar{
+    background-color: #ffc04c!important;
+    border-bottom-color: #ffc04c!important;
 }
 
 /** app Website **/
 .appWebsite-bar {
-	background-color: #ff7f50;
+    background-color: #ff7f50;
 }
 .navbar-header.appWebsite-bar {
-	background-color: #FFFFFF;
+    background-color: #FFFFFF;
 }
 .page-title.appWebsite-bar > span {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .material-icons.appWebsite-bar {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .menuWebsite-bar {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .website-icon {
-	color: #ff7f50;
+    color: #ff7f50;
+}
+.appWebsite-bar .be-right-navbar{
+    background-color: #ff7f50!important;
+    border-bottom-color: #ff7f50!important;
 }
 
 /** app NFS-e **/
 .appNfse-bar {
-	background-color: #400040;
+    background-color: #400040;
 }
 .navbar-header.appNfse-bar {
-	background-color: #FFFFFF;
+    background-color: #FFFFFF;
 }
 .page-title.appNfse-bar > span {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .material-icons.appNfse-bar {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .nfse-icon {
-	color: #400040;
+    color: #400040;
 }
+.appNfse-bar .be-right-navbar{
+    background-color: #400040!important;
+    border-bottom-color: #400040!important;
+}
+
 
 /** app Licitacoes **/
 .appLicitacoes-bar {
-	background-color: #ff7373;
+    background-color: #ff7373;
 }
 .navbar-header.appLicitacoes-bar {
-	background-color: #FFFFFF;
+    background-color: #FFFFFF;
 }
 .page-title.appLicitacoes-bar > span {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .material-icons.appLicitacoes-bar {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .licitacoes-icon {
-	color: #ff7373;
+    color: #ff7373;
 }
+.appLicitacoes-bar .be-right-navbar{
+    background-color: #ff7373!important;
+    border-bottom-color: #ff7373!important;
+}
+
 
 /** app Drive **/
 .appDrive-bar {
-	background-color: #3acecc;
+    background-color: #3acecc;
 }
 .navbar-header.appDrive-bar {
-	background-color: #FFFFFF;
+    background-color: #FFFFFF;
 }
 .page-title.appDrive-bar > span {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .material-icons.appDrive-bar {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .drive-icon {
-	color: #3acecc;
+    color: #3acecc;
 }
+.appDrive-bar .be-right-navbar{
+    background-color: #3acecc!important;
+    border-bottom-color: #3acecc!important;
+}
+
 
 /** app Atuarial **/
 .appAtuarial-bar {
-	background-color: #483d8b;
+    background-color: #483d8b;
 }
 .navbar-header.appAtuarial-bar {
-	background-color: #FFFFFF;
+    background-color: #FFFFFF;
 }
 .page-title.appAtuarial-bar > span {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .material-icons.appAtuarial-bar {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .atuarial-icon {
-	color: #483d8b;
+    color: #483d8b;
 }
+.appAtuarial-bar .be-right-navbar{
+    background-color: #483d8b!important;
+    border-bottom-color: #483d8b!important;
+}
+
 
 /** app Biometria **/
 .appBiometria-bar {
-	background-color: #f442eb;
+    background-color: #f442eb;
 }
 .navbar-header.appBiometria-bar {
-	background-color: #FFFFFF;
+    background-color: #FFFFFF;
 }
 .page-title.appBiometria-bar > span {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .material-icons.appBiometria-bar {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .biometria-icon {
-	color: #f442eb;
+    color: #f442eb;
 }
+.appBiometria-bar .be-right-navbar{
+    background-color: #f442eb!important;
+    border-bottom-color: #f442eb!important;
+}
+
 
 /** app Invest **/
 .appInvest-bar {
-	background-color: #4285f4;
+    background-color: #4285f4;
 }
 .navbar-header.appInvest-bar {
-	background-color: #FFFFFF;
+    background-color: #FFFFFF;
 }
 .page-title.appInvest-bar > span {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .material-icons.appInvest-bar {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .invest-icon {
-	color: #4285f4;
+    color: #4285f4;
+}
+.appInvest-bar .be-right-navbar{
+    background-color: #4285f4!important;
+    border-bottom-color: #4285f4!important;
 }
 
 /** app Consig **/
 .appConsig-bar {
-	background-color: #ad854a;
+    background-color: #ad854a;
 }
 .navbar-header.appConsig-bar {
-	background-color: #FFFFFF;
+    background-color: #FFFFFF;
 }
 .page-title.appConsig-bar > span {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .material-icons.appConsig-bar {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .consig-icon {
-	color: #ad854a;
+    color: #ad854a;
 }
 .icon-dashboard {
-	margin: 5px;
+    margin: 5px;
 }
 .icon-rounded {
-	border-radius: 20px;
+    border-radius: 20px;
 }
+.appConsig-bar .be-right-navbar{
+    background-color: #ad854a!important;
+    border-bottom-color: #ad854a!important;
+}
+
+
+
+#selectWebsite.in .menuWebsite-bar {
+    color: #646464;
+}
+
+
+/** overwriting arrow down  **/
+.be-user-nav > li.dropdown > a:after, 
+.be-left-sidebar .left-sidebar-toggle:before, 
+.be-top-header .be-toggle-top-header-menu.collapsed:before{
+    content: '\E313';
+}
+
+/** overwriting arrow up **/
+.be-top-header .be-toggle-top-header-menu:before,
+.be-left-sidebar .left-sidebar-toggle.open:before{ 
+    content: '\E316';
+}
+
+
+.box-form{width: 29%;}
+.list-group-item{border-left: 0; border-right: 0; }
+
+
+.be-checkbox input[type="checkbox"]:checked + label:before, .be-radio input[type="checkbox"]:checked + label:before, .be-checkbox input[type="radio"]:checked + label:before, .be-radio input[type="radio"]:checked + label:before{
+    content: '\E876';
+}
+.be-scroll-top:before{
+    content: '\E316';
+}
+
+@media (min-width: 767px){
+    .page-aside{width: 30%;}
+    .be-aside .main-content {
+        margin-left: 36%;
+    }
+}
+
+
+
