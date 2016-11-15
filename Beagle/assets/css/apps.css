@@ -443,28 +443,18 @@
 
 
 /** app Social **/
-.appSocial-bar {
-    background-color: #800080;
-}
-.navbar-header.appSocial-bar {
-    background-color: #FFFFFF;
-}
 .page-title.appSocial-bar > span {
-    color: #FFFFFF;
-}
-.material-icons.appSocial-bar {
-    color: #FFFFFF;
-}
-.menuSocial-bar {
     color: #FFFFFF;
 }
 .social-icon {
     color: #800080;
 }
-
-.appSocial-bar .be-right-navbar{
-    background-color: #800080!important;
-    border-bottom-color: #800080!important;
+.material-icons.appSocial-bar {
+    color: #FFFFFF;
+}
+.appSocial .be-right-navbar{
+    background-color: #800080;
+    border-bottom-color: #800080;
 }
 .appSocial .nav-tabs > li.active a, 
 .appSocial .nav-tabs > li.active a:hover, 
@@ -632,9 +622,6 @@
 
 
 /** app Governanca **/
-.appGovernanca-bar {
-    background-color: #800080;
-}
 .navbar-header.appGovernanca-bar {
     background-color: #FFFFFF;
 }
@@ -647,15 +634,9 @@
 .governanca-icon {
     color: #3cb371;
 }
-.appGovernanca-bar .be-right-navbar{
-    background-color: #3cb371!important;
-    border-bottom-color: #3cb371!important;
-}
-
-
 .appGovernanca .be-right-navbar{
-    background-color: #3cb371!important;
-    border-bottom-color: #3cb371!important;
+    background-color: #3cb371;
+    border-bottom-color: #3cb371;
 }
 .appGovernanca .nav-tabs > li.active a, 
 .appGovernanca .nav-tabs > li.active a:hover, 
@@ -820,12 +801,6 @@
 
 
 /** app Rh **/
-.appRh-bar {
-    background-color: #2f2f7e;
-}
-.navbar-header.appRh-bar {
-    background-color: #FFFFFF;
-}
 .page-title.appRh-bar > span {
     color: #FFFFFF;
 }
@@ -835,15 +810,9 @@
 .rh-icon {
     color: #2f2f7e;
 }
-.appRh-bar .be-right-navbar{
-    background-color: #2f2f7e!important;
-    border-bottom-color: #2f2f7e!important;
-}
-
-
-.appRh-bar .be-right-navbar{
-    background-color: #2f2f7e!important;
-    border-bottom-color: #2f2f7e!important;
+.appRh .be-right-navbar{
+    background-color: #2f2f7e;
+    border-bottom-color: #2f2f7e;
 }
 .appRh .nav-tabs > li.active a, 
 .appRh .nav-tabs > li.active a:hover, 
@@ -1007,9 +976,6 @@
 
 
 /** app Fopag **/
-.appFopag-bar {
-    background-color: #cd5b45;
-}
 .navbar-header.appFopag-bar {
     background-color: #FFFFFF;
 }
@@ -1022,14 +988,11 @@
 .fopag-icon {
     color: #cd5b45;
 }
-.appFopag-bar .be-right-navbar{
-    background-color: #cd5b45!important;
-    border-bottom-color: #cd5b45!important;
+.appFopag .be-right-navbar{
+    background-color: #cd5b45;
+    border-bottom-color: #cd5b45;
 }
-.appFopag-bar .be-right-navbar{
-    background-color: #cd5b45!important;
-    border-bottom-color: #cd5b45!important;
-}
+
 .appFopag .nav-tabs > li.active a, 
 .appFopag .nav-tabs > li.active a:hover, 
 .appFopag .nav-tabs > li.active a:focus{
@@ -1193,9 +1156,6 @@
 
 
 /** app OnyxPrev **/
-.appOnyxPrev-bar {
-    background-color: #FB8C00;
-}
 .navbar-header.appOnyxPrev-bar {
     background-color: #FFFFFF;
 }
@@ -1208,13 +1168,9 @@
 .onyxprev-icon {
     color: #FB8C00;
 }
-.appOnyxPrev-bar .be-right-navbar{
-    background-color: #FB8C00!important;
-    border-bottom-color: #FB8C00!important;
-}
-.appOnyxPrev-bar .be-right-navbar{
-    background-color: #FB8C00!important;
-    border-bottom-color: #FB8C00!important;
+.appOnyxPrev .be-right-navbar{
+    background-color: #FB8C00;
+    border-bottom-color: #FB8C00;
 }
 .appOnyxPrev .nav-tabs > li.active a, 
 .appOnyxPrev .nav-tabs > li.active a:hover, 
@@ -1378,9 +1334,6 @@
 
 
 /** app Recad **/
-.appRecad-bar {
-    background-color: #66cdaa;
-}
 .navbar-header.appRecad-bar {
     background-color: #FFFFFF;
 }
@@ -1393,14 +1346,11 @@
 .recad-icon {
     color: #66cdaa;
 }
-.appRecad-bar .be-right-navbar{
-    background-color: #66cdaa!important;
-    border-bottom-color: #66cdaa!important;
+.appRecad .be-right-navbar{
+    background-color: #66cdaa;
+    border-bottom-color: #66cdaa;
 }
-.aappRecad-bar .be-right-navbar{
-    background-color: #66cdaa!important;
-    border-bottom-color: #66cdaa!important;
-}
+
 .appRecad .nav-tabs > li.active a, 
 .appRecad .nav-tabs > li.active a:hover, 
 .appRecad .nav-tabs > li.active a:focus{
@@ -1563,9 +1513,6 @@
 
 
 /** app Protocolo **/
-.appProtocolo-bar {
-    background-color: #ffc04c;
-}
 .navbar-header.appProtocolo-bar {
     background-color: #FFFFFF;
 }
@@ -1578,9 +1525,9 @@
 .protocolo-icon {
     color: #ffc04c;
 }
-.appProtocolo-bar .be-right-navbar{
-    background-color: #ffc04c!important;
-    border-bottom-color: #ffc04c!important;
+.appProtocolo .be-right-navbar{
+    background-color: #ffc04c;
+    border-bottom-color: #ffc04c;
 }
 
 
@@ -1746,9 +1693,6 @@
 
 
 /** app Website **/
-.appWebsite-bar {
-    background-color: #ff7f50;
-}
 .navbar-header.appWebsite-bar {
     background-color: #FFFFFF;
 }
@@ -1764,9 +1708,9 @@
 .website-icon {
     color: #ff7f50;
 }
-.appWebsite-bar .be-right-navbar{
-    background-color: #ff7f50!important;
-    border-bottom-color: #ff7f50!important;
+.appWebsite .be-right-navbar{
+    background-color: #ff7f50;
+    border-bottom-color: #ff7f50;
 }
 .appWebsite .nav-tabs > li.active a, 
 .appWebsite .nav-tabs > li.active a:hover, 
@@ -1924,9 +1868,6 @@
 
 
 /** app NFS-e **/
-.appNfse-bar {
-    background-color: #400040;
-}
 .navbar-header.appNfse-bar {
     background-color: #FFFFFF;
 }
@@ -1939,9 +1880,9 @@
 .nfse-icon {
     color: #400040;
 }
-.appNfse-bar .be-right-navbar{
-    background-color: #400040!important;
-    border-bottom-color: #400040!important;
+.appNfse .be-right-navbar{
+    background-color: #400040;
+    border-bottom-color: #400040;
 }
 
 .appNfse .nav-tabs > li.active a, 
@@ -2106,9 +2047,6 @@
 
 
 /** app Licitacoes **/
-.appLicitacoes-bar {
-    background-color: #ff7373;
-}
 .navbar-header.appLicitacoes-bar {
     background-color: #FFFFFF;
 }
@@ -2121,9 +2059,9 @@
 .licitacoes-icon {
     color: #ff7373;
 }
-.appLicitacoes-bar .be-right-navbar{
-    background-color: #ff7373!important;
-    border-bottom-color: #ff7373!important;
+.appLicitacoes .be-right-navbar{
+    background-color: #ff7373;
+    border-bottom-color: #ff7373;
 }
 .appLicitacoes .nav-tabs > li.active a, 
 .appLicitacoes .nav-tabs > li.active a:hover, 
@@ -2287,9 +2225,6 @@
 
 
 /** app Drive **/
-.appDrive-bar {
-    background-color: #3acecc;
-}
 .navbar-header.appDrive-bar {
     background-color: #FFFFFF;
 }
@@ -2302,9 +2237,9 @@
 .drive-icon {
     color: #3acecc;
 }
-.appDrive-bar .be-right-navbar{
-    background-color: #3acecc!important;
-    border-bottom-color: #3acecc!important;
+.appDrive .be-right-navbar{
+    background-color: #3acecc;
+    border-bottom-color: #3acecc;
 }
 .appDrive .nav-tabs > li.active a, 
 .appDrive .nav-tabs > li.active a:hover, 
@@ -2469,9 +2404,6 @@
 
 
 /** app Atuarial **/
-.appAtuarial-bar {
-    background-color: #483d8b;
-}
 .navbar-header.appAtuarial-bar {
     background-color: #FFFFFF;
 }
@@ -2484,9 +2416,9 @@
 .atuarial-icon {
     color: #483d8b;
 }
-.appAtuarial-bar .be-right-navbar{
-    background-color: #483d8b!important;
-    border-bottom-color: #483d8b!important;
+.appAtuarial .be-right-navbar{
+    background-color: #483d8b;
+    border-bottom-color: #483d8b;
 }
 
 .appAtuarial .nav-tabs > li.active a, 
@@ -2652,9 +2584,6 @@
 
 
 /** app Biometria **/
-.appBiometria-bar {
-    background-color: #f442eb;
-}
 .navbar-header.appBiometria-bar {
     background-color: #FFFFFF;
 }
@@ -2667,9 +2596,9 @@
 .biometria-icon {
     color: #f442eb;
 }
-.appBiometria-bar .be-right-navbar{
-    background-color: #f442eb!important;
-    border-bottom-color: #f442eb!important;
+.appBiometria .be-right-navbar{
+    background-color: #f442eb;
+    border-bottom-color: #f442eb;
 }
 
 .appBiometria .nav-tabs > li.active a, 
@@ -2836,9 +2765,6 @@
 
 
 /** app Invest **/
-.appInvest-bar {
-    background-color: #4285f4;
-}
 .navbar-header.appInvest-bar {
     background-color: #FFFFFF;
 }
@@ -2851,9 +2777,9 @@
 .invest-icon {
     color: #4285f4;
 }
-.appInvest-bar .be-right-navbar{
-    background-color: #4285f4!important;
-    border-bottom-color: #4285f4!important;
+.appInvest .be-right-navbar{
+    background-color: #4285f4;
+    border-bottom-color: #4285f4;
 }
 
 .appInvest .nav-tabs > li.active a, 
@@ -3022,9 +2948,6 @@
 
 
 /** app Consig **/
-.appConsig-bar {
-    background-color: #ad854a;
-}
 .navbar-header.appConsig-bar {
     background-color: #FFFFFF;
 }
@@ -3037,15 +2960,10 @@
 .consig-icon {
     color: #ad854a;
 }
-.icon-dashboard {
-    margin: 5px;
-}
-.icon-rounded {
-    border-radius: 20px;
-}
-.appConsig-bar .be-right-navbar{
-    background-color: #ad854a!important;
-    border-bottom-color: #ad854a!important;
+
+.appConsig .be-right-navbar{
+    background-color: #ad854a;
+    border-bottom-color: #ad854a;
 }
 
 .appConsig .nav-tabs > li.active a, 
@@ -3127,90 +3045,101 @@
     background-color: #ad854a;
     border-color: #ad854a;
 }
-
-.appDashboard .btn-success {
-  border-color: #000000;
-  background-color: #000000;
-  border-color: #000000;
+.appConsig .btn-success {
+  border-color: #ad854a;
+  background-color: #ad854a;
+  border-color: #ad854a;
 }
-.appDashboard .btn-success:focus,
-.appDashboard .btn-success.focus {
-  background-color: #000000;
-  border-color: #000000;
+.appConsig .btn-success:focus,
+.appConsig .btn-success.focus {
+  background-color: #ad854a;
+  border-color: #ad854a;
 }
-.appDashboard .btn-success:hover {
-  background-color: #000000;
-  border-color: #000000;
+.appConsig .btn-success:hover {
+  background-color: #ad854a;
+  border-color: #ad854a;
 }
-.appDashboard .btn-success:active,
-.appDashboard .btn-success.active,
-.appDashboard .open > .dropdown-toggle.btn-success {
-  background-color: #000000;
-  border-color: #000000;
+.appConsig .btn-success:active,
+.appConsig .btn-success.active,
+.appConsig .open > .dropdown-toggle.btn-success {
+  background-color: #ad854a;
+  border-color: #ad854a;
 }
-.appDashboard .btn-success:active:hover,
-.appDashboard .btn-success.active:hover,
-.appDashboard .open > .dropdown-toggle.btn-success:hover,
-.appDashboard .btn-success:active:focus,
-.appDashboard .btn-success.active:focus,
-.appDashboard .open > .dropdown-toggle.btn-success:focus,
-.appDashboard .btn-success:active.focus,
-.appDashboard .btn-success.active.focus,
-.appDashboard .open > .dropdown-toggle.btn-success.focus {
-  background-color: #000000;
-  border-color: #000000;
+.appConsig .btn-success:active:hover,
+.appConsig .btn-success.active:hover,
+.appConsig .open > .dropdown-toggle.btn-success:hover,
+.appConsig .btn-success:active:focus,
+.appConsig .btn-success.active:focus,
+.appConsig .open > .dropdown-toggle.btn-success:focus,
+.appConsig .btn-success:active.focus,
+.appConsig .btn-success.active.focus,
+.appConsig .open > .dropdown-toggle.btn-success.focus {
+  background-color: #ad854a;
+  border-color: #ad854a;
 }
-.appDashboard .btn-success.disabled:hover,
-.appDashboard .btn-success[disabled]:hover,
-.appDashboard fieldset[disabled] .btn-success:hover,
-.appDashboard .btn-success.disabled:focus,
-.appDashboard .btn-success[disabled]:focus,
-.appDashboard fieldset[disabled] .btn-success:focus,
-.appDashboard .btn-success.disabled.focus,
-.appDashboard .btn-success[disabled].focus,
-.appDashboard fieldset[disabled] .btn-success.focus {
-  background-color: #000000;
-  border-color: #000000;
+.appConsig .btn-success.disabled:hover,
+.appConsig .btn-success[disabled]:hover,
+.appConsig fieldset[disabled] .btn-success:hover,
+.appConsig .btn-success.disabled:focus,
+.appConsig .btn-success[disabled]:focus,
+.appConsig fieldset[disabled] .btn-success:focus,
+.appConsig .btn-success.disabled.focus,
+.appConsig .btn-success[disabled].focus,
+.appConsig fieldset[disabled] .btn-success.focus {
+  background-color: #ad854a;
+  border-color: #ad854a;
 }
-.appDashboard .btn-success .badge {
-  color: #000000;
+.appConsig .btn-success .badge {
+  color: #ad854a;
 }
-.appDashboard .btn-success:focus,
-.appDashboard .btn-success.focus {  
-  background-color: #000000;
-  border-color: #000000;
+.appConsig .btn-success:focus,
+.appConsig .btn-success.focus {  
+  background-color: #ad854a;
+  border-color: #ad854a;
 }
-.appDashboard .btn-success:hover,
-.appDashboard .btn-success.hover {
-  box-shadow: inset 0 -1px 0 #000000;
-  background-color: #000000;
-  border-color: #000000;
-  border-bottom-color: #000000;
+.appConsig .btn-success:hover,
+.appConsig .btn-success.hover {
+  box-shadow: inset 0 -1px 0 #ad854a;
+  background-color: #ad854a;
+  border-color: #ad854a;
+  border-bottom-color: #ad854a;
 }
-.appDashboard .btn-success:active,
-.appDashboard .btn-success.active,
-.appDashboard .open > .dropdown-toggle.btn-success {
-  box-shadow: inset 0 2px 0 #000000;
-  background-color: #000000;
-  border-color: #000000;
-  border-top-color: #000000;
+.appConsig .btn-success:active,
+.appConsig .btn-success.active,
+.appConsig .open > .dropdown-toggle.btn-success {
+  box-shadow: inset 0 2px 0 #ad854a;
+  background-color: #ad854a;
+  border-color: #ad854a;
+  border-top-color: #ad854a;
 }
-.appDashboard .btn-success:active:hover,
-.appDashboard .btn-success.active:hover,
-.appDashboard .open > .dropdown-toggle.btn-success:hover,
-.appDashboard .btn-success:active:focus,
-.appDashboard .btn-success.active:focus,
-.appDashboard .open > .dropdown-toggle.btn-success:focus,
-.appDashboard .btn-success:active.focus,
-.appDashboard .btn-success.active.focus,
-.appDashboard .open > .dropdown-toggle.btn-success.focus {  
-  background-color: #000000;  
-  border-top-color: #000000;
-  box-shadow: inset 0 2px 0 #000000;
+.appConsig .btn-success:active:hover,
+.appConsig .btn-success.active:hover,
+.appConsig .open > .dropdown-toggle.btn-success:hover,
+.appConsig .btn-success:active:focus,
+.appConsig .btn-success.active:focus,
+.appConsig .open > .dropdown-toggle.btn-success:focus,
+.appConsig .btn-success:active.focus,
+.appConsig .btn-success.active.focus,
+.appConsig .open > .dropdown-toggle.btn-success.focus {  
+  background-color: #ad854a;  
+  border-top-color: #ad854a;
+  box-shadow: inset 0 2px 0 #ad854a;
 }
 
 
 /** geral **/
+
+.icon-dashboard {
+    margin: 5px;
+}
+.icon-rounded {
+    border-radius: 20px;
+}
+
+.navbar-header{
+    background-color: #FFFFFF;
+}
+
 #selectWebsite.in .menuWebsite-bar {
     color: #646464;
 }
@@ -3227,6 +3156,29 @@
     margin-top: 10px;
     width: 80px;
 }
+.avatar-form .action-edit a{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 40px;
+    color: #fff;
+    text-align: center;
+    padding-top: 25px;
+    text-indent: -999px;
+}
+.avatar-form .action-edit a:hover{
+    background: rgba(0,0,0,0.5);
+    text-indent: 0;
+}
+
+.material-icons.cloud_upload{font-size: 54px;}
+
+
+
+
+
 
 .dados h1{font-size: 36px;}
 .dados p{font-size: 16px;}
@@ -3292,6 +3244,10 @@
 }
 .input-search .input-group-btn button{
     height: 36px;
+}
+
+.btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary{
+    box-shadow: none!important;
 }
 
 @media (min-width: 767px){
