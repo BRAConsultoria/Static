@@ -1,44 +1,44 @@
 /** Todas as apps **/
 .be-top-header .navbar-header .navbar-brand {
-	background-position: center;
+    background-position: center;
 }
 .middle {
     vertical-align: middle;
 }
 .md-16 { 
-	font-size: 16px; 
+    font-size: 16px; 
 }
 .md-18 { 
-	font-size: 18px; 
+    font-size: 18px; 
 }
 .md-24 { 
-	font-size: 24px; 
+    font-size: 24px; 
 }
 .md-36 { 
-	font-size: 36px; 
+    font-size: 36px; 
 }
 .md-48 { 
-	font-size: 48px; 
+    font-size: 48px; 
 }
 .md-64 {
-	font-size: 64px;
+    font-size: 64px;
 }
 .logo-top-header > app-logo > img {
-	max-width: 105px;
-	overflow: hidden;
+    max-width: 105px;
+    overflow: hidden;
 }
 .label-dashboard {
-	margin-bottom: -20px;
-	padding-top: 10px;
-	color: #000000;
+    margin-bottom: -20px;
+    padding-top: 10px;
+    color: #000000;
 }
 .apps-block {
-	color: #000000;
-	cursor: pointer;
-	display: none;
-	width: 145px;
-	height: 150px;
-	text-align: center;
+    color: #000000;
+    cursor: pointer;
+    display: none;
+    width: 145px;
+    height: 150px;
+    text-align: center;
 }
 .apps-block:hover {
     color: #FB8C00;
@@ -47,324 +47,3350 @@
     text-align: center;
 }
 .apps-block > a {
-	color: #666666;
+    color: #666666;
 }
 .padding-40 {
-	padding: 40px;
+    padding: 40px;
 }
 .margin-10 {
-	margin: 10px;
+    margin: 10px;
 }
 
 /** app Login **/
 .appLogin-bar {
-	background-color: #4285f4;
+    background-color: #4285f4;
 }
 .navbar-header.appLogin-bar {
-	background-color: #FFFFFF;
+    background-color: #FFFFFF;
 }
 .page-title.appLogin-bar > span {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .material-icons.appLogin-bar {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .appLogin-logo {
-	background-image: url('../img/logo.png'); 
-	background-size: 150px;
-	background-repeat: no-repeat;
-	width: 201px;
-	height: 40px;
-	line-height: 40px;
-	background-position: center;
-	padding: 0px;
-	margin-top: 20px;
-	display: inline-block;
+    background-image: url('../img/logo.png'); 
+    background-size: 150px;
+    background-repeat: no-repeat;
+    width: 201px;
+    height: 40px;
+    line-height: 40px;
+    background-position: center;
+    padding: 0px;
+    margin-top: 20px;
+    display: inline-block;
 }
 .splash-description {
-	font-size: 16px;
+    font-size: 16px;
 }
+
+
+.appLogin-bar .be-right-navbar{
+    background-color: #4285f4!important;
+    border-bottom-color: #4285f4!important;
+}
+.appLogin .nav-tabs > li.active a, 
+.appLogin .nav-tabs > li.active a:hover, 
+.appLogin .nav-tabs > li.active a:focus{
+    border-color: #4285f4;
+}
+.appLogin .nav li.active a,
+.appLogin .nav a:hover{
+    color: #4285f4;
+}
+.appLogin .add-action{
+    color: #4285f4;
+}
+.appLogin .be-radio-icon input[type="radio"]:checked + label{
+    border-color: #4285f4;
+    color: #4285f4;
+}
+
+
+.appLogin .be-left-sidebar .sidebar-elements > li.active > a,
+.appLogin .be-left-sidebar .sidebar-elements > li.active > a > span{
+    color: #4285f4;
+}
+.appLogin .page-aside .list-group li:hover{
+    background-color: #f0f0f0;
+}
+.appLogin .page-aside .list-group li a{
+    color: #646464;
+}
+.appLogin .page-aside .list-group li a:hover,
+.appLogin .page-aside .list-group li:hover a,
+.appLogin .page-aside .list-group-item.active a{
+    color: #4285f4;
+    background-color: #f0f0f0;
+}
+.appLogin .page-aside .list-group-item.active,
+.appLogin .page-aside .list-group-item.active:hover,
+.appLogin .page-aside .list-group-item.active:focus{
+    color: #4285f4;
+    background-color: #f0f0f0;
+    border-color: #f0f0f0;
+}
+.appLogin .add-action{
+    color: #4285f4;
+}
+.appLogin .be-radio-icon input[type="radio"]:checked + label{
+    border-color: #4285f4;
+    color: #4285f4;
+}
+.appLogin .btn-primary{
+    border-color: #4285f4;
+    background-color: #4285f4;
+    border-color: #4285f4;
+}
+.appLogin .btn-primary:focus,
+.appLogin .btn-primary.focus {
+    background-color: #4285f4;
+    border-color: #4285f4;
+}
+.appLogin .btn-primary:hover {
+    background-color: #4285f4;
+    border-color: #4285f4;
+}
+.appLogin .btn-primary:active,
+.appLogin .btn-primary.active,
+.appLogin .open > .dropdown-toggle.btn-primary {  
+    background-color: #4285f4;
+    border-color: #4285f4;
+}
+.appLogin .btn-primary:active:hover,
+.appLogin .btn-primary.active:hover,
+.appLogin .open > .dropdown-toggle.btn-primary:hover,
+.appLogin .btn-primary:active:focus,
+.appLogin .btn-primary.active:focus,
+.appLogin .open > .dropdown-toggle.btn-primary:focus,
+.appLogin .btn-primary:active.focus,
+.appLogin .btn-primary.active.focus,
+.appLogin .open > .dropdown-toggle.btn-primary.focus {
+    background-color: #4285f4;
+    border-color: #4285f4;
+}
+.appLogin .btn-success {
+    border-color: #4285f4;
+    background-color: #4285f4;
+    border-color: #4285f4;
+}
+.appLogin .btn-success:focus,
+.appLogin .btn-success.focus {
+    background-color: #4285f4;
+    border-color: #4285f4;
+}
+.appLogin .btn-success:hover {
+    background-color: #4285f4;
+    border-color: #4285f4;
+}
+.appLogin .btn-success:active,
+.appLogin .btn-success.active,
+.appLogin .open > .dropdown-toggle.btn-success {
+    background-color: #4285f4;
+    border-color: #4285f4;
+}
+.appLogin .btn-success:active:hover,
+.appLogin .btn-success.active:hover,
+.appLogin .open > .dropdown-toggle.btn-success:hover,
+.appLogin .btn-success:active:focus,
+.appLogin .btn-success.active:focus,
+.appLogin .open > .dropdown-toggle.btn-success:focus,
+.appLogin .btn-success:active.focus,
+.appLogin .btn-success.active.focus,
+.appLogin .open > .dropdown-toggle.btn-success.focus {
+    background-color: #4285f4;
+    border-color: #4285f4;
+}
+.appLogin .btn-success.disabled:hover,
+.appLogin .btn-success[disabled]:hover,
+.appLogin fieldset[disabled] .btn-success:hover,
+.appLogin .btn-success.disabled:focus,
+.appLogin .btn-success[disabled]:focus,
+.appLogin fieldset[disabled] .btn-success:focus,
+.appLogin .btn-success.disabled.focus,
+.appLogin .btn-success[disabled].focus,
+.appLogin fieldset[disabled] .btn-success.focus {
+    background-color: #4285f4;
+    border-color: #4285f4;
+}
+.appLogin .btn-success .badge {
+    color: #4285f4;
+}
+.appLogin .btn-success:focus,
+.appLogin .btn-success.focus {  
+    background-color: #4285f4;
+    border-color: #4285f4;
+}
+.appLogin .btn-success:hover,
+.appLogin .btn-success.hover {
+    box-shadow: inset 0 -1px 0 #4285f4;
+    background-color: #4285f4;
+    border-color: #4285f4;
+    border-bottom-color: #4285f4;
+}
+.appLogin .btn-success:active,
+.appLogin .btn-success.active,
+.appLogin .open > .dropdown-toggle.btn-success {
+    box-shadow: inset 0 2px 0 #4285f4;
+    background-color: #4285f4;
+    border-color: #4285f4;
+    border-top-color: #4285f4;
+}
+.appLogin .btn-success:active:hover,
+.appLogin .btn-success.active:hover,
+.appLogin .open > .dropdown-toggle.btn-success:hover,
+.appLogin .btn-success:active:focus,
+.appLogin .btn-success.active:focus,
+.appLogin .open > .dropdown-toggle.btn-success:focus,
+.appLogin .btn-success:active.focus,
+.appLogin .btn-success.active.focus,
+.appLogin .open > .dropdown-toggle.btn-success.focus {  
+    background-color: #4285f4;  
+    border-top-color: #4285f4;
+    box-shadow: inset 0 2px 0 #4285f4;
+}
+.appLogin .hvr-buzz {color: #4285f4;}
+.appLogin .be-notifications .notification:hover{background-color: #4285f4;}
+.appLogin .be-notifications .notification > a .notification-info .user-name{color: #4285f4;}
+
 
 /** app Dashboard **/
 .appDashboard-bar {
-	background-color: #FFFFFF;
+    background-color: #FFFFFF;
 }
 .navbar-header.appDashboard-bar {
-	background-color: #FFFFFF;
+    background-color: #FFFFFF;
 }
 .page-title.appDashboard-bar > span {
-	/*color: #FFFFFF;*/
+    /*color: #FFFFFF;*/
 }
 .material-icons.appDashboard-bar {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .material-icons.social {
-	color: #800080;
+    color: #800080;
 }
+.dashboard-icon {
+    color: #000000;
+}
+
+.appDashboard-bar .be-right-navbar{
+    background-color: #000000!important;
+    border-bottom-color: #000000!important;
+}
+.appDashboard .nav-tabs > li.active a, 
+.appDashboard .nav-tabs > li.active a:hover, 
+.appDashboard .nav-tabs > li.active a:focus{
+    border-color: #000000;
+}
+.appDashboard .nav li.active a,
+.appDashboard .nav a:hover{
+    color: #000000;
+}
+.appDashboard .add-action{
+    color: #000000;
+}
+.appDashboard .be-radio-icon input[type="radio"]:checked + label{
+    border-color: #000000;
+    color: #000000;
+}
+.appDashboard .be-left-sidebar .sidebar-elements > li.active > a,
+.appDashboard .be-left-sidebar .sidebar-elements > li.active > a > span{
+    color: #000000;
+}
+.appDashboard .page-aside .list-group li:hover{
+    background-color: #f0f0f0;
+}
+.appDashboard .page-aside .list-group li a{
+    color: #000000;
+}
+.appDashboard .page-aside .list-group li a:hover,
+.appDashboard .page-aside .list-group li:hover a,
+.appDashboard .page-aside .list-group-item.active a{
+    color: #000000;
+    background-color: #f0f0f0;
+}
+.appDashboard .page-aside .list-group-item.active,
+.appDashboard .page-aside .list-group-item.active:hover,
+.appDashboard .page-aside .list-group-item.active:focus{
+    color: #000000;
+    background-color: #f0f0f0;
+    border-color: #f0f0f0;
+}
+.appDashboard .add-action{
+    color: #000000;
+}
+.appDashboard .be-radio-icon input[type="radio"]:checked + label{
+    border-color: #000000;
+    color: #000000;
+}
+.appDashboard .btn-primary{
+    border-color: #000000;
+    background-color: #000000;
+    border-color: #000000;
+}
+.appDashboard .btn-primary:focus,
+.appDashboard .btn-primary.focus {
+    background-color: #000000;
+    border-color: #000000;
+}
+.appDashboard .btn-primary:hover {
+    background-color: #000000;
+    border-color: #000000;
+}
+.appDashboard .btn-primary:active,
+.appDashboard .btn-primary.active,
+.appDashboard .open > .dropdown-toggle.btn-primary {  
+    background-color: #000000;
+    border-color: #000000;
+}
+.appDashboard .btn-primary:active:hover,
+.appDashboard .btn-primary.active:hover,
+.appDashboard .open > .dropdown-toggle.btn-primary:hover,
+.appDashboard .btn-primary:active:focus,
+.appDashboard .btn-primary.active:focus,
+.appDashboard .open > .dropdown-toggle.btn-primary:focus,
+.appDashboard .btn-primary:active.focus,
+.appDashboard .btn-primary.active.focus,
+.appDashboard .open > .dropdown-toggle.btn-primary.focus {
+    background-color: #000000;
+    border-color: #000000;
+}
+.appDashboard .btn-success {
+    border-color: #000000;
+    background-color: #000000;
+    border-color: #000000;
+}
+.appDashboard .btn-success:focus,
+.appDashboard .btn-success.focus {
+    background-color: #000000;
+    border-color: #000000;
+}
+.appDashboard .btn-success:hover {
+    background-color: #000000;
+    border-color: #000000;
+}
+.appDashboard .btn-success:active,
+.appDashboard .btn-success.active,
+.appDashboard .open > .dropdown-toggle.btn-success {
+    background-color: #000000;
+    border-color: #000000;
+}
+.appDashboard .btn-success:active:hover,
+.appDashboard .btn-success.active:hover,
+.appDashboard .open > .dropdown-toggle.btn-success:hover,
+.appDashboard .btn-success:active:focus,
+.appDashboard .btn-success.active:focus,
+.appDashboard .open > .dropdown-toggle.btn-success:focus,
+.appDashboard .btn-success:active.focus,
+.appDashboard .btn-success.active.focus,
+.appDashboard .open > .dropdown-toggle.btn-success.focus {
+    background-color: #000000;
+    border-color: #000000;
+}
+.appDashboard .btn-success.disabled:hover,
+.appDashboard .btn-success[disabled]:hover,
+.appDashboard fieldset[disabled] .btn-success:hover,
+.appDashboard .btn-success.disabled:focus,
+.appDashboard .btn-success[disabled]:focus,
+.appDashboard fieldset[disabled] .btn-success:focus,
+.appDashboard .btn-success.disabled.focus,
+.appDashboard .btn-success[disabled].focus,
+.appDashboard fieldset[disabled] .btn-success.focus {
+    background-color: #000000;
+    border-color: #000000;
+}
+.appDashboard .btn-success .badge {
+    color: #000000;
+}
+.appDashboard .btn-success:focus,
+.appDashboard .btn-success.focus {  
+    background-color: #000000;
+    border-color: #000000;
+}
+.appDashboard .btn-success:hover,
+.appDashboard .btn-success.hover {
+    box-shadow: inset 0 -1px 0 #000000;
+    background-color: #000000;
+    border-color: #000000;
+    border-bottom-color: #000000;
+}
+.appDashboard .btn-success:active,
+.appDashboard .btn-success.active,
+.appDashboard .open > .dropdown-toggle.btn-success {
+    box-shadow: inset 0 2px 0 #000000;
+    background-color: #000000;
+    border-color: #000000;
+    border-top-color: #000000;
+}
+.appDashboard .btn-success:active:hover,
+.appDashboard .btn-success.active:hover,
+.appDashboard .open > .dropdown-toggle.btn-success:hover,
+.appDashboard .btn-success:active:focus,
+.appDashboard .btn-success.active:focus,
+.appDashboard .open > .dropdown-toggle.btn-success:focus,
+.appDashboard .btn-success:active.focus,
+.appDashboard .btn-success.active.focus,
+.appDashboard .open > .dropdown-toggle.btn-success.focus {  
+    background-color: #000000;  
+    border-top-color: #000000;
+    box-shadow: inset 0 2px 0 #000000;
+}
+.appDashboard .hvr-buzz {color: #000000;}
+.appDashboard .be-notifications .notification:hover{background-color: #000000;}
+.appDashboard .be-notifications .notification > a .notification-info .user-name{color: #000000;}
+
 
 /** app Social **/
-.appSocial-bar {
-	background-color: #800080;
-}
-.navbar-header.appSocial-bar {
-	background-color: #FFFFFF;
-}
 .page-title.appSocial-bar > span {
-	color: #FFFFFF;
-}
-.material-icons.appSocial-bar {
-	color: #FFFFFF;
-}
-.menuSocial-bar {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .social-icon {
-	color: #800080;
+    color: #800080;
 }
+.material-icons.appSocial-bar {
+    color: #FFFFFF;
+}
+.appSocial .be-right-navbar{
+    background-color: #800080;
+    border-bottom-color: #800080;
+}
+.appSocial .nav-tabs > li.active a, 
+.appSocial .nav-tabs > li.active a:hover, 
+.appSocial .nav-tabs > li.active a:focus{
+    border-color: #800080;
+}
+.appSocial .nav li.active a,
+.appSocial .nav a:hover{
+    color: #800080;
+}
+.appSocial .add-action{
+    color: #800080;
+}
+.appSocial .be-radio-icon input[type="radio"]:checked + label{
+    border-color: #800080;
+    color: #800080;
+}
+.appSocial .be-left-sidebar .sidebar-elements > li.active > a,
+.appSocial .be-left-sidebar .sidebar-elements > li.active > a > span{
+    color: #800080;
+}
+.appSocial .page-aside .list-group li:hover{
+    background-color: #f0f0f0;
+}
+.appSocial .page-aside .list-group li a{
+    color: #646464;
+}
+.appSocial .page-aside .list-group li a:hover,
+.appSocial .page-aside .list-group li:hover a,
+.appSocial .page-aside .list-group-item.active a{
+    color: #800080;
+    background-color: #f0f0f0;
+}
+.appSocial .page-aside .list-group-item.active,
+.appSocial .page-aside .list-group-item.active:hover,
+.appSocial .page-aside .list-group-item.active:focus{
+    color: #800080;
+    background-color: #f0f0f0;
+    border-color: #f0f0f0;
+}
+.appSocial .add-action{
+    color: #800080;
+}
+.appSocial .be-radio-icon input[type="radio"]:checked + label{
+    border-color: #800080;
+    color: #800080;
+}
+.appSocial .btn-primary{
+    border-color: #800080;
+    background-color: #800080;
+    border-color: #800080;
+}
+.appSocial .btn-primary:focus,
+.appSocial .btn-primary.focus {
+    background-color: #800080;
+    border-color: #800080;
+}
+.appSocial .btn-primary:hover {
+    background-color: #800080;
+    border-color: #800080;
+}
+.appSocial .btn-primary:active,
+.appSocial .btn-primary.active,
+.appSocial .open > .dropdown-toggle.btn-primary {  
+    background-color: #800080;
+    border-color: #800080;
+}
+.appSocial .btn-primary:active:hover,
+.appSocial .btn-primary.active:hover,
+.appSocial .open > .dropdown-toggle.btn-primary:hover,
+.appSocial .btn-primary:active:focus,
+.appSocial .btn-primary.active:focus,
+.appSocial .open > .dropdown-toggle.btn-primary:focus,
+.appSocial .btn-primary:active.focus,
+.appSocial .btn-primary.active.focus,
+.appSocial .open > .dropdown-toggle.btn-primary.focus {
+    background-color: #800080;
+    border-color: #800080;
+}
+.appSocial .btn-success {
+    border-color: #800080;
+    background-color: #800080;
+    border-color: #800080;
+}
+.appSocial .btn-success:focus,
+.appSocial .btn-success.focus {
+    background-color: #800080;
+    border-color: #800080;
+}
+.appSocial .btn-success:hover {
+    background-color: #800080;
+    border-color: #800080;
+}
+.appSocial .btn-success:active,
+.appSocial .btn-success.active,
+.appSocial .open > .dropdown-toggle.btn-success {
+    background-color: #800080;
+    border-color: #800080;
+}
+.appSocial .btn-success:active:hover,
+.appSocial .btn-success.active:hover,
+.appSocial .open > .dropdown-toggle.btn-success:hover,
+.appSocial .btn-success:active:focus,
+.appSocial .btn-success.active:focus,
+.appSocial .open > .dropdown-toggle.btn-success:focus,
+.appSocial .btn-success:active.focus,
+.appSocial .btn-success.active.focus,
+.appSocial .open > .dropdown-toggle.btn-success.focus {
+    background-color: #800080;
+    border-color: #800080;
+}
+.appSocial .btn-success.disabled:hover,
+.appSocial .btn-success[disabled]:hover,
+.appSocial fieldset[disabled] .btn-success:hover,
+.appSocial .btn-success.disabled:focus,
+.appSocial .btn-success[disabled]:focus,
+.appSocial fieldset[disabled] .btn-success:focus,
+.appSocial .btn-success.disabled.focus,
+.appSocial .btn-success[disabled].focus,
+.appSocial fieldset[disabled] .btn-success.focus {
+    background-color: #800080;
+    border-color: #800080;
+}
+.appSocial .btn-success .badge {
+    color: #800080;
+}
+.appSocial .btn-success:focus,
+.appSocial .btn-success.focus {  
+    background-color: #800080;
+    border-color: #800080;
+}
+.appSocial .btn-success:hover,
+.appSocial .btn-success.hover {
+    box-shadow: inset 0 -1px 0 #800080;
+    background-color: #800080;
+    border-color: #800080;
+    border-bottom-color: #800080;
+}
+.appSocial .btn-success:active,
+.appSocial .btn-success.active,
+.appSocial .open > .dropdown-toggle.btn-success {
+    box-shadow: inset 0 2px 0 #800080;
+    background-color: #800080;
+    border-color: #800080;
+    border-top-color: #800080;
+}
+.appSocial .btn-success:active:hover,
+.appSocial .btn-success.active:hover,
+.appSocial .open > .dropdown-toggle.btn-success:hover,
+.appSocial .btn-success:active:focus,
+.appSocial .btn-success.active:focus,
+.appSocial .open > .dropdown-toggle.btn-success:focus,
+.appSocial .btn-success:active.focus,
+.appSocial .btn-success.active.focus,
+.appSocial .open > .dropdown-toggle.btn-success.focus {  
+    background-color: #800080;  
+    border-top-color: #800080;
+    box-shadow: inset 0 2px 0 #800080;
+}
+.appSocial .hvr-buzz {color: #800080;}
+.appSocial .be-notifications .notification:hover{background-color: #800080;}
+.appSocial .be-notifications .notification > a .notification-info .user-name{color: #800080;}
+
 
 /** app Governanca **/
-.appGovernanca-bar {
-	background-color: #800080;
-}
 .navbar-header.appGovernanca-bar {
-	background-color: #FFFFFF;
+    background-color: #FFFFFF;
 }
 .page-title.appGovernanca-bar > span {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .material-icons.appGovernanca-bar {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .governanca-icon {
-	color: #3cb371;
+    color: #3cb371;
 }
+.appGovernanca .be-right-navbar{
+    background-color: #3cb371;
+    border-bottom-color: #3cb371;
+}
+.appGovernanca .nav-tabs > li.active a, 
+.appGovernanca .nav-tabs > li.active a:hover, 
+.appGovernanca .nav-tabs > li.active a:focus{
+    border-color: #3cb371;
+}
+.appGovernanca .nav li.active a,
+.appGovernanca .nav a:hover{
+    color: #3cb371;
+}
+.appGovernanca .add-action{
+    color: #3cb371;
+}
+.appGovernanca .be-radio-icon input[type="radio"]:checked + label{
+    border-color: #3cb371;
+    color: #3cb371;
+}
+.appGovernanca .be-left-sidebar .sidebar-elements > li.active > a,
+.appGovernanca .be-left-sidebar .sidebar-elements > li.active > a > span{
+    color: #3cb371;
+}
+.appGovernanca .page-aside .list-group li:hover{
+    background-color: #f0f0f0;
+}
+.appGovernanca .page-aside .list-group li a{
+    color: #646464;
+}
+.appGovernanca .page-aside .list-group li a:hover,
+.appGovernanca .page-aside .list-group li:hover a,
+.appGovernanca .page-aside .list-group-item.active a{
+    color: #3cb371;
+    background-color: #f0f0f0;
+}
+.appGovernanca .page-aside .list-group-item.active,
+.appGovernanca .page-aside .list-group-item.active:hover,
+.appGovernanca .page-aside .list-group-item.active:focus{
+    color: #3cb371;
+    background-color: #f0f0f0;
+    border-color: #f0f0f0;
+}
+.appGovernanca .add-action{
+    color: #3cb371;
+}
+.appGovernanca .be-radio-icon input[type="radio"]:checked + label{
+    border-color: #3cb371;
+    color: #3cb371
+}
+.appGovernanca .btn-primary{
+    border-color: #3cb371;
+    background-color: #3cb371;
+    border-color: #3cb371;
+}
+.appGovernanca .btn-primary:focus,
+.appGovernanca .btn-primary.focus {
+    background-color: #3cb371;
+    border-color: #3cb371;
+}
+.appGovernanca .btn-primary:hover {
+    background-color: #3cb371;
+    border-color: #3cb371;
+}
+.appGovernanca .btn-primary:active,
+.appGovernanca .btn-primary.active,
+.appGovernanca .open > .dropdown-toggle.btn-primary {  
+    background-color: #3cb371;
+    border-color: #3cb371;
+}
+.appGovernanca .btn-primary:active:hover,
+.appGovernanca .btn-primary.active:hover,
+.appGovernanca .open > .dropdown-toggle.btn-primary:hover,
+.appGovernanca .btn-primary:active:focus,
+.appGovernanca .btn-primary.active:focus,
+.appGovernanca .open > .dropdown-toggle.btn-primary:focus,
+.appGovernanca .btn-primary:active.focus,
+.appGovernanca .btn-primary.active.focus,
+.appGovernanca .open > .dropdown-toggle.btn-primary.focus {
+    background-color: #3cb371;
+    border-color: #3cb371;
+}
+.appGovernanca .btn-success {
+    border-color: #3cb371;
+    background-color: #3cb371;
+    border-color: #3cb371;
+}
+.appGovernanca .btn-success:focus,
+.appGovernanca .btn-success.focus {
+    background-color: #3cb371;
+    border-color: #3cb371;
+}
+.appGovernanca .btn-success:hover {
+    background-color: #3cb371;
+    border-color: #3cb371;
+}
+.appGovernanca .btn-success:active,
+.appGovernanca .btn-success.active,
+.appGovernanca .open > .dropdown-toggle.btn-success {
+    background-color: #3cb371;
+    border-color: #3cb371;
+}
+.appGovernanca .btn-success:active:hover,
+.appGovernanca .btn-success.active:hover,
+.appGovernanca .open > .dropdown-toggle.btn-success:hover,
+.appGovernanca .btn-success:active:focus,
+.appGovernanca .btn-success.active:focus,
+.appGovernanca .open > .dropdown-toggle.btn-success:focus,
+.appGovernanca .btn-success:active.focus,
+.appGovernanca .btn-success.active.focus,
+.appGovernanca .open > .dropdown-toggle.btn-success.focus {
+    background-color: #3cb371;
+    border-color: #3cb371;
+}
+.appGovernanca .btn-success.disabled:hover,
+.appGovernanca .btn-success[disabled]:hover,
+.appGovernanca fieldset[disabled] .btn-success:hover,
+.appGovernanca .btn-success.disabled:focus,
+.appGovernanca .btn-success[disabled]:focus,
+.appGovernanca fieldset[disabled] .btn-success:focus,
+.appGovernanca .btn-success.disabled.focus,
+.appGovernanca .btn-success[disabled].focus,
+.appGovernanca fieldset[disabled] .btn-success.focus {
+    background-color: #3cb371;
+    border-color: #3cb371;
+}
+.appGovernanca .btn-success .badge {
+    color: #3cb371;
+}
+.appGovernanca .btn-success:focus,
+.appGovernanca .btn-success.focus {  
+    background-color: #3cb371;
+    border-color: #3cb371;
+}
+.appGovernanca .btn-success:hover,
+.appGovernanca .btn-success.hover {
+    box-shadow: inset 0 -1px 0 #3cb371;
+    background-color: #3cb371;
+    border-color: #3cb371;
+    border-bottom-color: #3cb371;
+}
+.appGovernanca .btn-success:active,
+.appDashboard .btn-success.active,
+.appGovernanca .open > .dropdown-toggle.btn-success {
+    box-shadow: inset 0 2px 0 #3cb371;
+    background-color: #3cb371;
+    border-color: #3cb371;
+    border-top-color: #3cb371;
+}
+.appGovernanca .btn-success:active:hover,
+.appGovernanca .btn-success.active:hover,
+.appGovernanca .open > .dropdown-toggle.btn-success:hover,
+.appGovernanca .btn-success:active:focus,
+.appGovernanca .btn-success.active:focus,
+.appGovernanca .open > .dropdown-toggle.btn-success:focus,
+.appGovernanca .btn-success:active.focus,
+.appGovernanca .btn-success.active.focus,
+.appGovernanca .open > .dropdown-toggle.btn-success.focus {  
+    background-color: #3cb371;  
+    border-top-color: #3cb371;
+    box-shadow: inset 0 2px 0 #3cb371;
+}
+.appGovernanca .hvr-buzz {color: #3cb371;}
+.appGovernanca .be-notifications .notification:hover{background-color: #3cb371;}
+.appGovernanca .be-notifications .notification > a .notification-info .user-name{color: #3cb371;}
+
 
 /** app Rh **/
-.appRh-bar {
-	background-color: #2f2f7e;
-}
-.navbar-header.appRh-bar {
-	background-color: #FFFFFF;
-}
 .page-title.appRh-bar > span {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .material-icons.appRh-bar {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .rh-icon {
-	color: #2f2f7e;
+    color: #2f2f7e;
 }
+.appRh .be-right-navbar{
+    background-color: #2f2f7e;
+    border-bottom-color: #2f2f7e;
+}
+.appRh .nav-tabs > li.active a, 
+.appRh .nav-tabs > li.active a:hover, 
+.appRh .nav-tabs > li.active a:focus{
+    border-color: #2f2f7e;
+}
+.appRh .nav li.active a,
+.appRh .nav a:hover{
+    color: #2f2f7e;
+}
+.appRh .add-action{
+    color: #2f2f7e;
+}
+.appRh .be-radio-icon input[type="radio"]:checked + label{
+    border-color: #2f2f7e;
+    color: #2f2f7e;
+}
+.appRh .be-left-sidebar .sidebar-elements > li.active > a,
+.appRh .be-left-sidebar .sidebar-elements > li.active > a > span{
+    color: #2f2f7e;
+}
+.appRh .page-aside .list-group li:hover{
+    background-color: #f0f0f0;
+}
+.appRh .page-aside .list-group li a{
+    color: #646464;
+}
+.appRh .page-aside .list-group li a:hover,
+.appRh .page-aside .list-group li:hover a,
+.appRh .page-aside .list-group-item.active a{
+    color: #2f2f7e;
+    background-color: #f0f0f0;
+}
+.appRh .page-aside .list-group-item.active,
+.appRh .page-aside .list-group-item.active:hover,
+.appRh .page-aside .list-group-item.active:focus{
+    color: #2f2f7e;
+    background-color: #f0f0f0;
+    border-color: #f0f0f0;
+}
+.appRh .add-action{
+    color: #2f2f7e;
+}
+.appRh .be-radio-icon input[type="radio"]:checked + label{
+    border-color: #2f2f7e;
+    color: #2f2f7e;
+}
+.appRh .btn-primary{
+    border-color: #2f2f7e;
+    background-color: #2f2f7e;
+    border-color: #2f2f7e;
+}
+.appRh .btn-primary:focus,
+.appRh .btn-primary.focus {
+    background-color: #2f2f7e;
+    border-color: #2f2f7e;
+}
+.appRh .btn-primary:hover {
+    background-color: #2f2f7e;
+    border-color: #2f2f7e;
+}
+.appRh .btn-primary:active,
+.appRh .btn-primary.active,
+.appRh .open > .dropdown-toggle.btn-primary {  
+    background-color: #2f2f7e;
+    border-color: #2f2f7e;
+}
+.appRh .btn-primary:active:hover,
+.appRh .btn-primary.active:hover,
+.appRh .open > .dropdown-toggle.btn-primary:hover,
+.appRh .btn-primary:active:focus,
+.appRh .btn-primary.active:focus,
+.appRh .open > .dropdown-toggle.btn-primary:focus,
+.appRh .btn-primary:active.focus,
+.appRh .btn-primary.active.focus,
+.appRh .open > .dropdown-toggle.btn-primary.focus {
+    background-color: #2f2f7e;
+    border-color: #2f2f7e;
+}
+.appRh .btn-success {
+    border-color: #2f2f7e;
+    background-color: #2f2f7e;
+    border-color: #2f2f7e
+}
+.appRh .btn-success:focus,
+.appRh .btn-success.focus {
+    background-color: #2f2f7e;
+    border-color: #2f2f7e;
+}
+.appRh .btn-success:hover {
+    background-color: #2f2f7e;
+    border-color: #2f2f7e;
+}
+.appRh .btn-success:active,
+.appRh .btn-success.active,
+.appRh .open > .dropdown-toggle.btn-success {
+    background-color: #2f2f7e;
+    border-color: #2f2f7e;
+}
+.appRh .btn-success:active:hover,
+.appRh .btn-success.active:hover,
+.appRh .open > .dropdown-toggle.btn-success:hover,
+.appRh .btn-success:active:focus,
+.appRh .btn-success.active:focus,
+.appRh .open > .dropdown-toggle.btn-success:focus,
+.appRh .btn-success:active.focus,
+.appRh .btn-success.active.focus,
+.appRh .open > .dropdown-toggle.btn-success.focus {
+    background-color: #2f2f7e;
+    border-color: #2f2f7e;
+}
+.appRh .btn-success.disabled:hover,
+.appRh .btn-success[disabled]:hover,
+.appRh fieldset[disabled] .btn-success:hover,
+.appRh .btn-success.disabled:focus,
+.appRh .btn-success[disabled]:focus,
+.appRh fieldset[disabled] .btn-success:focus,
+.appRh .btn-success.disabled.focus,
+.appRh .btn-success[disabled].focus,
+.appRh fieldset[disabled] .btn-success.focus {
+    background-color: #2f2f7e;
+    border-color: #2f2f7e;
+}
+.appRh .btn-success .badge {
+    color: #2f2f7e;
+}
+.appRh .btn-success:focus,
+.appRh .btn-success.focus {  
+    background-color: #2f2f7e;
+    border-color: #2f2f7e;
+}
+.appRh .btn-success:hover,
+.appRh .btn-success.hover {
+    box-shadow: inset 0 -1px 0 #2f2f7e;
+    background-color: #2f2f7e;
+    border-color: #2f2f7e;
+    border-bottom-color: #2f2f7e;
+}
+.appRh .btn-success:active,
+.appRh .btn-success.active,
+.appRh .open > .dropdown-toggle.btn-success {
+    box-shadow: inset 0 2px 0 #2f2f7e;
+    background-color: #2f2f7e;
+    border-color: #2f2f7e;
+    border-top-color: #2f2f7e;
+}
+.appRh .btn-success:active:hover,
+.appRh .btn-success.active:hover,
+.appRh .open > .dropdown-toggle.btn-success:hover,
+.appRh .btn-success:active:focus,
+.appRh .btn-success.active:focus,
+.appRh .open > .dropdown-toggle.btn-success:focus,
+.appRh .btn-success:active.focus,
+.appRh .btn-success.active.focus,
+.appRh .open > .dropdown-toggle.btn-success.focus {  
+    background-color: #2f2f7e;  
+    border-top-color: #2f2f7e;
+    box-shadow: inset 0 2px 0 #2f2f7e;
+}
+.appRh .hvr-buzz {color: #2f2f7e;}
+.appRh .be-notifications .notification:hover{background-color: #2f2f7e;}
+.appRh .be-notifications .notification > a .notification-info .user-name{color: #2f2f7e;}
+
+
 
 /** app Fopag **/
-.appFopag-bar {
-	background-color: #2f2f7e;
-}
 .navbar-header.appFopag-bar {
-	background-color: #FFFFFF;
+    background-color: #FFFFFF;
 }
 .page-title.appFopag-bar > span {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .material-icons.appFopag-bar {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .fopag-icon {
-	color: #cd5b45;
+    color: #cd5b45;
 }
+.appFopag .be-right-navbar{
+    background-color: #cd5b45;
+    border-bottom-color: #cd5b45;
+}
+
+.appFopag .nav-tabs > li.active a, 
+.appFopag .nav-tabs > li.active a:hover, 
+.appFopag .nav-tabs > li.active a:focus{
+    border-color: #cd5b45;
+}
+.appFopag .nav li.active a,
+.appFopag .nav a:hover{
+    color: #cd5b45;
+}
+.appFopag .add-action{
+    color: #cd5b45;
+}
+.appFopag .be-radio-icon input[type="radio"]:checked + label{
+    border-color: #cd5b45;
+    color: #cd5b45;
+}
+.appFopag .be-left-sidebar .sidebar-elements > li.active > a,
+.appFopag .be-left-sidebar .sidebar-elements > li.active > a > span{
+    color: #cd5b45;
+}
+.appFopag .page-aside .list-group li:hover{
+    background-color: #f0f0f0;
+}
+.appFopag .page-aside .list-group li a{
+    color: #646464;
+}
+.appFopag .page-aside .list-group li a:hover,
+.appFopag .page-aside .list-group li:hover a,
+.appFopag .page-aside .list-group-item.active a{
+    color: #cd5b45;
+    background-color: #f0f0f0;
+}
+.appFopag .page-aside .list-group-item.active,
+.appFopag .page-aside .list-group-item.active:hover,
+.appFopag .page-aside .list-group-item.active:focus{
+    color: #cd5b45;
+    background-color: #f0f0f0;
+    border-color: #f0f0f0;
+}
+.appFopag .add-action{
+    color: #cd5b45;
+}
+.appFopag .be-radio-icon input[type="radio"]:checked + label{
+    border-color: #cd5b45;
+    color: #cd5b45;
+}
+.appFopag .btn-primary{
+    border-color: #cd5b45;
+    background-color: #cd5b45;
+    border-color: #cd5b45;
+}
+.appFopag .btn-primary:focus,
+.appFopag .btn-primary.focus {
+    background-color: #cd5b45;
+    border-color: #cd5b45;
+}
+.appFopag .btn-primary:hover {
+    background-color: #cd5b45;
+    border-color: #cd5b45;
+}
+.appFopag .btn-primary:active,
+.appFopag .btn-primary.active,
+.appFopag .open > .dropdown-toggle.btn-primary {  
+    background-color: #cd5b45;
+    border-color: #cd5b45;
+}
+.appFopag .btn-primary:active:hover,
+.appFopag .btn-primary.active:hover,
+.appFopag .open > .dropdown-toggle.btn-primary:hover,
+.appFopag .btn-primary:active:focus,
+.appFopag .btn-primary.active:focus,
+.appFopag .open > .dropdown-toggle.btn-primary:focus,
+.appFopag .btn-primary:active.focus,
+.appFopag .btn-primary.active.focus,
+.appFopag .open > .dropdown-toggle.btn-primary.focus {
+    background-color: #cd5b45;
+    border-color: #cd5b45;
+}
+
+.appFopag .btn-success {
+    border-color: #cd5b45;
+    background-color: #cd5b45;
+    border-color: #cd5b45;
+}
+.appFopag .btn-success:focus,
+.appFopag .btn-success.focus {
+    background-color: #cd5b45;
+    border-color: #cd5b45;
+}
+.appFopag .btn-success:hover {
+    background-color: #cd5b45;
+    border-color: #cd5b45;
+}
+.appFopag .btn-success:active,
+.appFopag .btn-success.active,
+.appFopag .open > .dropdown-toggle.btn-success {
+    background-color: #cd5b45;
+    border-color: #cd5b45;
+}
+.appFopag .btn-success:active:hover,
+.appFopag .btn-success.active:hover,
+.appFopag .open > .dropdown-toggle.btn-success:hover,
+.appFopag .btn-success:active:focus,
+.appFopag .btn-success.active:focus,
+.appFopag .open > .dropdown-toggle.btn-success:focus,
+.appFopag .btn-success:active.focus,
+.appFopag .btn-success.active.focus,
+.appFopag .open > .dropdown-toggle.btn-success.focus {
+    background-color: #cd5b45;
+    border-color: #cd5b45;
+}
+.appFopag .btn-success.disabled:hover,
+.appFopag .btn-success[disabled]:hover,
+.appFopag fieldset[disabled] .btn-success:hover,
+.appFopag .btn-success.disabled:focus,
+.appFopag .btn-success[disabled]:focus,
+.appFopag fieldset[disabled] .btn-success:focus,
+.appFopag .btn-success.disabled.focus,
+.appFopag .btn-success[disabled].focus,
+.appFopag fieldset[disabled] .btn-success.focus {
+    background-color: #cd5b45;
+    border-color: #cd5b45;
+}
+.appFopag .btn-success .badge {
+    color: #cd5b45;
+}
+.appFopag .btn-success:focus,
+.appFopag .btn-success.focus {  
+    background-color: #cd5b45;
+    border-color: #cd5b45;
+}
+.appFopag .btn-success:hover,
+.appFopag .btn-success.hover {
+    box-shadow: inset 0 -1px 0 #cd5b45;
+    background-color: #cd5b45;
+    border-color: #cd5b45;
+    border-bottom-color: #cd5b45;
+}
+.appFopag .btn-success:active,
+.appFopag .btn-success.active,
+.appFopag .open > .dropdown-toggle.btn-success {
+    box-shadow: inset 0 2px 0 #cd5b45;
+    background-color: #cd5b45;
+    border-color: #cd5b45;
+    border-top-color: #cd5b45;
+}
+.appFopag .btn-success:active:hover,
+.appFopag .btn-success.active:hover,
+.appFopag .open > .dropdown-toggle.btn-success:hover,
+.appFopag .btn-success:active:focus,
+.appFopag .btn-success.active:focus,
+.appFopag .open > .dropdown-toggle.btn-success:focus,
+.appFopag .btn-success:active.focus,
+.appFopag .btn-success.active.focus,
+.appFopag .open > .dropdown-toggle.btn-success.focus {  
+    background-color: #cd5b45;  
+    border-top-color: #cd5b45;
+    box-shadow: inset 0 2px 0 #cd5b45;
+}
+.appFopag .hvr-buzz {color: #cd5b45;}
+.appFopag .be-notifications .notification:hover{background-color: #cd5b45;}
+.appFopag .be-notifications .notification > a .notification-info .user-name{color: #cd5b45;}
+
+
 
 /** app OnyxPrev **/
-.appOnyxPrev-bar {
-	background-color: #FB8C00;
-}
 .navbar-header.appOnyxPrev-bar {
-	background-color: #FFFFFF;
+    background-color: #FFFFFF;
 }
 .page-title.appOnyxPrev-bar > span {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .material-icons.appOnyxPrev-bar {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .onyxprev-icon {
-	color: #FB8C00;
+    color: #FB8C00;
 }
+.appOnyxPrev .be-right-navbar{
+    background-color: #FB8C00;
+    border-bottom-color: #FB8C00;
+}
+.appOnyxPrev .nav-tabs > li.active a, 
+.appOnyxPrev .nav-tabs > li.active a:hover, 
+.appOnyxPrev .nav-tabs > li.active a:focus{
+    border-color: #FB8C00;
+}
+.appOnyxPrev .nav li.active a,
+.appOnyxPrev .nav a:hover{
+    color: #FB8C00;
+}
+.appOnyxPrev .add-action{
+    color: #FB8C00;
+}
+.appOnyxPrev .be-radio-icon input[type="radio"]:checked + label{
+    border-color: #FB8C00;
+    color: #FB8C00;
+}
+.appOnyxPrev .be-left-sidebar .sidebar-elements > li.active > a,
+.appOnyxPrev .be-left-sidebar .sidebar-elements > li.active > a > span{
+    color: #FB8C00;
+}
+.appOnyxPrev .page-aside .list-group li:hover{
+    background-color: #f0f0f0;
+}
+.appOnyxPrev .page-aside .list-group li a{
+    color: #646464;
+}
+.appOnyxPrev .page-aside .list-group li a:hover,
+.appOnyxPrev .page-aside .list-group li:hover a,
+.appOnyxPrev .page-aside .list-group-item.active a{
+    color: #FB8C00;
+    background-color: #f0f0f0;
+}
+.appOnyxPrev .page-aside .list-group-item.active,
+.appOnyxPrev .page-aside .list-group-item.active:hover,
+.appOnyxPrev .page-aside .list-group-item.active:focus{
+    color: #FB8C00;
+    background-color: #f0f0f0;
+    border-color: #f0f0f0;
+}
+.appOnyxPrev .add-action{
+    color: #FB8C00;
+}
+.appOnyxPrev .be-radio-icon input[type="radio"]:checked + label{
+    border-color: #FB8C00;
+    color: #FB8C00;
+}
+.appOnyxPrev .btn-primary{
+    border-color: #FB8C00;
+    background-color: #FB8C00;
+    border-color: #FB8C00;
+}
+.appOnyxPrev .btn-primary:focus,
+.appOnyxPrev .btn-primary.focus {
+    background-color: #FB8C00;
+    border-color: #FB8C00;
+}
+.appOnyxPrev .btn-primary:hover {
+    background-color: #FB8C00;
+    border-color: #FB8C00;
+}
+.appOnyxPrev .btn-primary:active,
+.appOnyxPrev .btn-primary.active,
+.appOnyxPrev .open > .dropdown-toggle.btn-primary {  
+    background-color: #FB8C00;
+    border-color: #FB8C00;
+}
+.appOnyxPrev .btn-primary:active:hover,
+.appOnyxPrev .btn-primary.active:hover,
+.appOnyxPrev .open > .dropdown-toggle.btn-primary:hover,
+.appOnyxPrev .btn-primary:active:focus,
+.appOnyxPrev .btn-primary.active:focus,
+.appOnyxPrev .open > .dropdown-toggle.btn-primary:focus,
+.appOnyxPrev .btn-primary:active.focus,
+.appOnyxPrev .btn-primary.active.focus,
+.appOnyxPrev .open > .dropdown-toggle.btn-primary.focus {
+    background-color: #FB8C00;
+    border-color: #FB8C00;
+}
+.appOnyxPrev .btn-success {
+    border-color: #FB8C00;
+    background-color: #FB8C00;
+    border-color: #FB8C00;
+}
+.appOnyxPrev .btn-success:focus,
+.appOnyxPrev .btn-success.focus {
+    background-color: #FB8C00;
+    border-color: #FB8C00;
+}
+.appOnyxPrev .btn-success:hover {
+    background-color: #FB8C00;
+    border-color: #FB8C00;
+}
+.appOnyxPrev .btn-success:active,
+.appOnyxPrev .btn-success.active,
+.appOnyxPrev .open > .dropdown-toggle.btn-success {
+    background-color: #FB8C00;
+    border-color: #FB8C00;
+}
+.appOnyxPrev .btn-success:active:hover,
+.appOnyxPrev .btn-success.active:hover,
+.appOnyxPrev .open > .dropdown-toggle.btn-success:hover,
+.appOnyxPrev .btn-success:active:focus,
+.appOnyxPrev .btn-success.active:focus,
+.appOnyxPrev .open > .dropdown-toggle.btn-success:focus,
+.appOnyxPrev .btn-success:active.focus,
+.appOnyxPrev .btn-success.active.focus,
+.appOnyxPrev .open > .dropdown-toggle.btn-success.focus {
+    background-color: #FB8C00;
+    border-color: #FB8C00;
+}
+.appOnyxPrev .btn-success.disabled:hover,
+.appOnyxPrev .btn-success[disabled]:hover,
+.appOnyxPrev fieldset[disabled] .btn-success:hover,
+.appOnyxPrev .btn-success.disabled:focus,
+.appOnyxPrev .btn-success[disabled]:focus,
+.appOnyxPrev fieldset[disabled] .btn-success:focus,
+.appOnyxPrev .btn-success.disabled.focus,
+.appOnyxPrev .btn-success[disabled].focus,
+.appOnyxPrev fieldset[disabled] .btn-success.focus {
+    background-color: #FB8C00;
+    border-color: #FB8C00;
+}
+.appOnyxPrev .btn-success .badge {
+    color: #FB8C00;
+}
+.appOnyxPrev .btn-success:focus,
+.appOnyxPrev .btn-success.focus {  
+    background-color: #FB8C00;
+    border-color: #FB8C00;
+}
+.appOnyxPrev .btn-success:hover,
+.appOnyxPrev .btn-success.hover {
+    box-shadow: inset 0 -1px 0 #FB8C00;
+    background-color: #FB8C00;
+    border-color: #FB8C00;
+    border-bottom-color: #FB8C00;
+}
+.appOnyxPrev .btn-success:active,
+.appOnyxPrev .btn-success.active,
+.appOnyxPrev .open > .dropdown-toggle.btn-success {
+    box-shadow: inset 0 2px 0 #FB8C00;
+    background-color: #FB8C00;
+    border-color: #FB8C00;
+    border-top-color: #FB8C00;
+}
+.appOnyxPrev .btn-success:active:hover,
+.appOnyxPrev .btn-success.active:hover,
+.appOnyxPrev .open > .dropdown-toggle.btn-success:hover,
+.appOnyxPrev .btn-success:active:focus,
+.appOnyxPrev .btn-success.active:focus,
+.appOnyxPrev .open > .dropdown-toggle.btn-success:focus,
+.appOnyxPrev .btn-success:active.focus,
+.appOnyxPrev .btn-success.active.focus,
+.appOnyxPrev .open > .dropdown-toggle.btn-success.focus {  
+    background-color: #FB8C00;  
+    border-top-color: #FB8C00;
+    box-shadow: inset 0 2px 0 #FB8C00;
+}
+.appOnyxPrev .hvr-buzz {color: #FB8C00;}
+.appOnyxPrev .be-notifications .notification:hover{background-color: #FB8C00;}
+.appOnyxPrev .be-notifications .notification > a .notification-info .user-name{color: #FB8C00;}
+
+
 
 /** app Recad **/
-.appRecad-bar {
-	background-color: #66cdaa;
-}
 .navbar-header.appRecad-bar {
-	background-color: #FFFFFF;
+    background-color: #FFFFFF;
 }
 .page-title.appRecad-bar > span {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .material-icons.appRecad-bar {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .recad-icon {
-	color: #66cdaa;
+    color: #66cdaa;
 }
+.appRecad .be-right-navbar{
+    background-color: #66cdaa;
+    border-bottom-color: #66cdaa;
+}
+
+.appRecad .nav-tabs > li.active a, 
+.appRecad .nav-tabs > li.active a:hover, 
+.appRecad .nav-tabs > li.active a:focus{
+    border-color: #66cdaa;
+}
+.appRecad .nav li.active a,
+.appRecad .nav a:hover{
+    color: #66cdaa;
+}
+.appRecad .add-action{
+    color: #66cdaa;
+}
+.appRecad .be-radio-icon input[type="radio"]:checked + label{
+    border-color: #66cdaa;
+    color: #66cdaa;
+}
+.appRecad .be-left-sidebar .sidebar-elements > li.active > a,
+.appRecad .be-left-sidebar .sidebar-elements > li.active > a > span{
+    color: #66cdaa;
+}
+.appRecad .page-aside .list-group li:hover{
+    background-color: #f0f0f0;
+}
+.appRecad .page-aside .list-group li a{
+    color: #646464;
+}
+.appRecad .page-aside .list-group li a:hover,
+.appRecad .page-aside .list-group li:hover a,
+.appRecad .page-aside .list-group-item.active a{
+    color: #66cdaa;
+    background-color: #f0f0f0;
+}
+.appRecad .page-aside .list-group-item.active,
+.appRecad .page-aside .list-group-item.active:hover,
+.appRecad .page-aside .list-group-item.active:focus{
+    color: #66cdaa;
+    background-color: #f0f0f0;
+    border-color: #f0f0f0;
+}
+.appRecad .add-action{
+    color: #66cdaa;
+}
+.appRecad .be-radio-icon input[type="radio"]:checked + label{
+    border-color: #66cdaa;
+    color: #66cdaa;
+}
+.appRecad .btn-primary{
+    border-color: #66cdaa;
+    background-color: #66cdaa;
+    border-color: #66cdaa;
+}
+.appRecad .btn-primary:focus,
+.appRecad .btn-primary.focus {
+    background-color: #66cdaa;
+    border-color: #66cdaa;
+}
+.appRecad .btn-primary:hover {
+    background-color: #66cdaa;
+    border-color: #66cdaa;
+}
+.appRecad .btn-primary:active,
+.appRecad .btn-primary.active,
+.appRecad .open > .dropdown-toggle.btn-primary {  
+    background-color: #66cdaa;
+    border-color: #66cdaa;
+}
+.appRecad .btn-primary:active:hover,
+.appRecad .btn-primary.active:hover,
+.appRecad .open > .dropdown-toggle.btn-primary:hover,
+.appRecad .btn-primary:active:focus,
+.appRecad .btn-primary.active:focus,
+.appRecad .open > .dropdown-toggle.btn-primary:focus,
+.appRecad .btn-primary:active.focus,
+.appRecad .btn-primary.active.focus,
+.appRecad .open > .dropdown-toggle.btn-primary.focus {
+    background-color: #66cdaa;
+    border-color: #66cdaa;
+}
+
+.appRecad .btn-success {
+    border-color: #66cdaa;
+    background-color: #66cdaa;
+    border-color: #66cdaa;
+}
+.appRecad .btn-success:focus,
+.appRecad .btn-success.focus {
+    background-color: #66cdaa;
+    border-color: #66cdaa;
+}
+.appRecad .btn-success:hover {
+    background-color: #66cdaa;
+    border-color: #66cdaa;
+}
+.appRecad .btn-success:active,
+.appRecad .btn-success.active,
+.appRecad .open > .dropdown-toggle.btn-success {
+    background-color: #66cdaa;
+    border-color: #66cdaa;
+}
+.appRecad .btn-success:active:hover,
+.appRecad .btn-success.active:hover,
+.appRecad .open > .dropdown-toggle.btn-success:hover,
+.appRecad .btn-success:active:focus,
+.appRecad .btn-success.active:focus,
+.appRecad .open > .dropdown-toggle.btn-success:focus,
+.appRecad .btn-success:active.focus,
+.appRecad .btn-success.active.focus,
+.appRecad .open > .dropdown-toggle.btn-success.focus {
+    background-color: #66cdaa;
+    border-color: #66cdaa;
+}
+.appRecad .btn-success.disabled:hover,
+.appRecad .btn-success[disabled]:hover,
+.appRecad fieldset[disabled] .btn-success:hover,
+.appRecad .btn-success.disabled:focus,
+.appRecad .btn-success[disabled]:focus,
+.appRecad fieldset[disabled] .btn-success:focus,
+.appRecad .btn-success.disabled.focus,
+.appRecad .btn-success[disabled].focus,
+.appRecad fieldset[disabled] .btn-success.focus {
+    background-color: #66cdaa;
+    border-color: #66cdaa;
+}
+.appRecad .btn-success .badge {
+    color: #66cdaa;
+}
+.appRecad .btn-success:focus,
+.appRecad .btn-success.focus {  
+    background-color: #66cdaa;
+    border-color: #66cdaa;
+}
+.appRecad .btn-success:hover,
+.appRecad .btn-success.hover {
+    box-shadow: inset 0 -1px 0 #66cdaa;
+    background-color: #66cdaa;
+    border-color: #66cdaa;
+    border-bottom-color: #66cdaa;
+}
+.appRecad .btn-success:active,
+.appRecad .btn-success.active,
+.appRecad .open > .dropdown-toggle.btn-success {
+    box-shadow: inset 0 2px 0 #66cdaa;
+    background-color: #66cdaa;
+    border-color: #66cdaa;
+    border-top-color: #66cdaa;
+}
+.appRecad .btn-success:active:hover,
+.appRecad .btn-success.active:hover,
+.appRecad .open > .dropdown-toggle.btn-success:hover,
+.appRecad .btn-success:active:focus,
+.appRecad .btn-success.active:focus,
+.appRecad .open > .dropdown-toggle.btn-success:focus,
+.appRecad .btn-success:active.focus,
+.appRecad .btn-success.active.focus,
+.appRecad .open > .dropdown-toggle.btn-success.focus {  
+    background-color: #66cdaa;  
+    border-top-color: #66cdaa;
+    box-shadow: inset 0 2px 0 #66cdaa;
+}
+.appRecad .hvr-buzz {color: #66cdaa;}
+.appRecad .be-notifications .notification:hover{background-color: #66cdaa;}
+.appRecad .be-notifications .notification > a .notification-info .user-name{color: #66cdaa;}
+
 
 /** app Protocolo **/
-.appProtocolo-bar {
-	background-color: #ffc04c;
-}
 .navbar-header.appProtocolo-bar {
-	background-color: #FFFFFF;
+    background-color: #FFFFFF;
 }
 .page-title.appProtocolo-bar > span {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .material-icons.appProtocolo-bar {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .protocolo-icon {
-	color: #ffc04c;
+    color: #ffc04c;
 }
+.appProtocolo .be-right-navbar{
+    background-color: #ffc04c;
+    border-bottom-color: #ffc04c;
+}
+
+
+.appProtocolo .nav-tabs > li.active a, 
+.appProtocolo .nav-tabs > li.active a:hover, 
+.appProtocolo .nav-tabs > li.active a:focus{
+    border-color: #ffc04c;
+}
+.appProtocolo .nav li.active a,
+.appProtocolo .nav a:hover{
+    color: #ffc04c;
+}
+.appProtocolo .add-action{
+    color: #ffc04c;
+}
+.appProtocolo .be-radio-icon input[type="radio"]:checked + label{
+    border-color: #ffc04c;
+    color: #ffc04c;
+}
+.appProtocolo .be-left-sidebar .sidebar-elements > li.active > a,
+.appProtocolo .be-left-sidebar .sidebar-elements > li.active > a > span{
+    color: #ffc04c;
+}
+.appProtocolo .page-aside .list-group li:hover{
+    background-color: #f0f0f0;
+}
+.appProtocolo .page-aside .list-group li a{
+    color: #646464;
+}
+.appProtocolo .page-aside .list-group li a:hover,
+.appProtocolo .page-aside .list-group li:hover a,
+.appProtocolo .page-aside .list-group-item.active a{
+    color: #ffc04c;
+    background-color: #f0f0f0;
+}
+.appProtocolo .page-aside .list-group-item.active,
+.appProtocolo .page-aside .list-group-item.active:hover,
+.appProtocolo .page-aside .list-group-item.active:focus{
+    color: #ffc04c;
+    background-color: #f0f0f0;
+    border-color: #f0f0f0;
+}
+.appProtocolo .add-action{
+    color: #ffc04c;
+}
+.appProtocolo .be-radio-icon input[type="radio"]:checked + label{
+    border-color: #ffc04c;
+    color: #ffc04c;
+}
+.appProtocolo .btn-primary{
+    border-color: #ffc04c;
+    background-color: #ffc04c;
+    border-color: #ffc04c;
+}
+.appProtocolo .btn-primary:focus,
+.appProtocolo .btn-primary.focus {
+    background-color: #ffc04c;
+    border-color: #ffc04c;
+}
+.appProtocolo .btn-primary:hover {
+    background-color: #ffc04c;
+    border-color: #ffc04c;
+}
+.appProtocolo .btn-primary:active,
+.appProtocolo .btn-primary.active,
+.appProtocolo .open > .dropdown-toggle.btn-primary {  
+    background-color: #ffc04c;
+    border-color: #ffc04c;
+}
+.appProtocolo .btn-primary:active:hover,
+.appProtocolo .btn-primary.active:hover,
+.appProtocolo .open > .dropdown-toggle.btn-primary:hover,
+.appProtocolo .btn-primary:active:focus,
+.appProtocolo .btn-primary.active:focus,
+.appProtocolo .open > .dropdown-toggle.btn-primary:focus,
+.appProtocolo .btn-primary:active.focus,
+.appProtocolo .btn-primary.active.focus,
+.appProtocolo .open > .dropdown-toggle.btn-primary.focus {
+    background-color: #ffc04c;
+    border-color: #ffc04c;
+}
+
+.appProtocolo .btn-success {
+    border-color: #ffc04c;
+    background-color: #ffc04c;
+    border-color: #ffc04c;
+}
+.appProtocolo .btn-success:focus,
+.appProtocolo .btn-success.focus {
+    background-color: #ffc04c;
+    border-color: #ffc04c;
+}
+.appProtocolo .btn-success:hover {
+    background-color: #ffc04c;
+    border-color: #ffc04c;
+}
+.appProtocolo .btn-success:active,
+.appProtocolo .btn-success.active,
+.appProtocolo .open > .dropdown-toggle.btn-success {
+    background-color: #ffc04c;
+    border-color: #ffc04c;
+}
+.appProtocolo .btn-success:active:hover,
+.appProtocolo .btn-success.active:hover,
+.appProtocolo .open > .dropdown-toggle.btn-success:hover,
+.appProtocolo .btn-success:active:focus,
+.appProtocolo .btn-success.active:focus,
+.appProtocolo .open > .dropdown-toggle.btn-success:focus,
+.appProtocolo .btn-success:active.focus,
+.appProtocolo .btn-success.active.focus,
+.appProtocolo .open > .dropdown-toggle.btn-success.focus {
+    background-color: #ffc04c;
+    border-color: #ffc04c;
+}
+.appProtocolo .btn-success.disabled:hover,
+.appProtocolo .btn-success[disabled]:hover,
+.appProtocolo fieldset[disabled] .btn-success:hover,
+.appProtocolo .btn-success.disabled:focus,
+.appProtocolo .btn-success[disabled]:focus,
+.appProtocolo fieldset[disabled] .btn-success:focus,
+.appProtocolo .btn-success.disabled.focus,
+.appProtocolo .btn-success[disabled].focus,
+.appProtocolo fieldset[disabled] .btn-success.focus {
+    background-color: #ffc04c;
+    border-color: #ffc04c;
+}
+.appProtocolo .btn-success .badge {
+    color: #ffc04c;
+}
+.appProtocolo .btn-success:focus,
+.appProtocolo .btn-success.focus {  
+    background-color: #ffc04c;
+    border-color: #ffc04c;
+}
+.appProtocolo .btn-success:hover,
+.appProtocolo .btn-success.hover {
+    box-shadow: inset 0 -1px 0 #ffc04c;
+    background-color: #ffc04c;
+    border-color: #ffc04c;
+    border-bottom-color: #ffc04c;
+}
+.appProtocolo .btn-success:active,
+.appProtocolo .btn-success.active,
+.appProtocolo .open > .dropdown-toggle.btn-success {
+    box-shadow: inset 0 2px 0 #ffc04c;
+    background-color: #ffc04c;
+    border-color: #ffc04c;
+    border-top-color: #ffc04c;
+}
+.appProtocolo .btn-success:active:hover,
+.appProtocolo .btn-success.active:hover,
+.appProtocolo .open > .dropdown-toggle.btn-success:hover,
+.appProtocolo .btn-success:active:focus,
+.appProtocolo .btn-success.active:focus,
+.appProtocolo .open > .dropdown-toggle.btn-success:focus,
+.appProtocolo .btn-success:active.focus,
+.appProtocolo .btn-success.active.focus,
+.appProtocolo .open > .dropdown-toggle.btn-success.focus {  
+    background-color: #ffc04c;  
+    border-top-color: #ffc04c;
+    box-shadow: inset 0 2px 0 #ffc04c;
+}
+.appProtocolo .hvr-buzz {color: #ffc04c;}
+.appProtocolo .be-notifications .notification:hover{background-color: #ffc04c;}
+.appProtocolo .be-notifications .notification > a .notification-info .user-name{color: #ffc04c;}
+
 
 /** app Website **/
-.appWebsite-bar {
-	background-color: #ff7f50;
-}
 .navbar-header.appWebsite-bar {
-	background-color: #FFFFFF;
+    background-color: #FFFFFF;
 }
 .page-title.appWebsite-bar > span {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .material-icons.appWebsite-bar {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .menuWebsite-bar {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .website-icon {
-	color: #ff7f50;
+    color: #ff7f50;
 }
+.appWebsite .be-right-navbar{
+    background-color: #ff7f50;
+    border-bottom-color: #ff7f50;
+}
+.appWebsite .nav-tabs > li.active a, 
+.appWebsite .nav-tabs > li.active a:hover, 
+.appWebsite .nav-tabs > li.active a:focus{
+    border-color: #ff7f50;
+}
+.appWebsite .nav li.active a,
+.appWebsite .nav a:hover{
+    color: #ff7f50;
+}
+.appWebsite .add-action{
+    color: #ff7f50;
+}
+.appWebsite .be-radio-icon input[type="radio"]:checked + label{
+    border-color: #ff7f50;
+    color: #ff7f50;
+}
+.appWebsite .be-left-sidebar .sidebar-elements > li.active > a,
+.appWebsite .be-left-sidebar .sidebar-elements > li.active > a > span{
+    color: #ff7f50;
+}
+.appWebsite .page-aside .list-group li:hover{
+    background-color: #f0f0f0;
+}
+.appWebsite .page-aside .list-group li a{
+    color: #646464;
+}
+.appWebsite .page-aside .list-group li a:hover,
+.appWebsite .page-aside .list-group li:hover a,
+.appWebsite .page-aside .list-group-item.active a{
+    color: #ff7f50;
+    background-color: #f0f0f0;
+}
+.appWebsite .page-aside .list-group-item.active,
+.appWebsite .page-aside .list-group-item.active:hover,
+.appWebsite .page-aside .list-group-item.active:focus{
+    color: #ff7f50;
+    background-color: #f0f0f0;
+    border-color: #f0f0f0;
+}
+.appWebsite .btn-primary{
+    border-color: #ff7f50;
+    background-color: #ff7f50;
+    border-color: #ff7f50;
+}
+.appWebsite .btn-primary:focus,
+.appWebsite .btn-primary.focus {
+    background-color: #ff7f50;
+    border-color: #ff7f50;
+}
+.appWebsite .btn-primary:hover {
+    background-color: #ff7f50;
+    border-color: #ff7f50;
+}
+.appWebsite .btn-primary:active,
+.appWebsite .btn-primary.active,
+.appWebsite .open > .dropdown-toggle.btn-primary {  
+    background-color: #ff7f50;
+    border-color: #ff7f50;
+}
+.appWebsite .btn-primary:active:hover,
+.appWebsite .btn-primary.active:hover,
+.appWebsite .open > .dropdown-toggle.btn-primary:hover,
+.appWebsite .btn-primary:active:focus,
+.appWebsite .btn-primary.active:focus,
+.appWebsite .open > .dropdown-toggle.btn-primary:focus,
+.appWebsite .btn-primary:active.focus,
+.appWebsite .btn-primary.active.focus,
+.appWebsite .open > .dropdown-toggle.btn-primary.focus {
+    background-color: #ff7f50;
+    border-color: #ff7f50;
+}
+
+.appWebsite .btn-success {
+    border-color: #ff7f50;
+    background-color: #ff7f50;
+    border-color: #ff7f50;
+}
+.appWebsite .btn-success:focus,
+.appWebsite .btn-success.focus {
+    background-color: #ff7f50;
+    border-color: #ff7f50;
+}
+.appWebsite .btn-success:hover {
+    background-color: #ff7f50;
+    border-color: #ff7f50;
+}
+.appWebsite .btn-success:active,
+.appWebsite .btn-success.active,
+.appWebsite .open > .dropdown-toggle.btn-success {
+    background-color: #ff7f50;
+    border-color: #ff7f50;
+}
+.appWebsite .btn-success:active:hover,
+.appWebsite .btn-success.active:hover,
+.appWebsite .open > .dropdown-toggle.btn-success:hover,
+.appWebsite .btn-success:active:focus,
+.appWebsite .btn-success.active:focus,
+.appWebsite .open > .dropdown-toggle.btn-success:focus,
+.appWebsite .btn-success:active.focus,
+.appWebsite .btn-success.active.focus,
+.appWebsite .open > .dropdown-toggle.btn-success.focus {
+    background-color: #ff7f50;
+    border-color: #ff7f50;
+}
+.appWebsite .btn-success.disabled:hover,
+.appWebsite .btn-success[disabled]:hover,
+.appWebsite fieldset[disabled] .btn-success:hover,
+.appWebsite .btn-success.disabled:focus,
+.appWebsite .btn-success[disabled]:focus,
+.appWebsite fieldset[disabled] .btn-success:focus,
+.appWebsite .btn-success.disabled.focus,
+.appWebsite .btn-success[disabled].focus,
+.appWebsite fieldset[disabled] .btn-success.focus {
+    background-color: #ff7f50;
+    border-color: #ff7f50;
+}
+.appWebsite .btn-success .badge {
+    color: #ff7f50;
+}
+.appWebsite .btn-success:focus,
+.appWebsite .btn-success.focus {  
+    background-color: #ff7f50;
+    border-color: #ff7f50;
+}
+.appWebsite .btn-success:hover,
+.appWebsite .btn-success.hover {
+    box-shadow: inset 0 -1px 0 #ff7f50;
+    background-color: #ff7f50;
+    border-color: #ff7f50;
+    border-bottom-color: #ff7f50;
+}
+.appWebsite .btn-success:active,
+.appWebsite .btn-success.active,
+.appWebsite .open > .dropdown-toggle.btn-success {
+    box-shadow: inset 0 2px 0 #ff7f50;
+    background-color: #ff7f50;
+    border-color: #ff7f50;
+    border-top-color: #ff7f50;
+}
+.appWebsite .btn-success:active:hover,
+.appWebsite .btn-success.active:hover,
+.appWebsite .open > .dropdown-toggle.btn-success:hover,
+.appWebsite .btn-success:active:focus,
+.appWebsite .btn-success.active:focus,
+.appWebsite .open > .dropdown-toggle.btn-success:focus,
+.appWebsite .btn-success:active.focus,
+.appWebsite .btn-success.active.focus,
+.appWebsite .open > .dropdown-toggle.btn-success.focus {  
+    background-color: #ff7f50;  
+    border-top-color: #ff7f50;
+    box-shadow: inset 0 2px 0 #ff7f50;
+}
+.appWebsite .hvr-buzz {color: #ff7f50;}
+.appWebsite .be-notifications .notification:hover{background-color: #ff7f50;}
+.appWebsite .be-notifications .notification > a .notification-info .user-name{color: #ff7f50;}
+
+
 
 /** app NFS-e **/
-.appNfse-bar {
-	background-color: #400040;
-}
 .navbar-header.appNfse-bar {
-	background-color: #FFFFFF;
+    background-color: #FFFFFF;
 }
 .page-title.appNfse-bar > span {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .material-icons.appNfse-bar {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .nfse-icon {
-	color: #400040;
+    color: #400040;
 }
+.appNfse .be-right-navbar{
+    background-color: #400040;
+    border-bottom-color: #400040;
+}
+
+.appNfse .nav-tabs > li.active a, 
+.appNfse .nav-tabs > li.active a:hover, 
+.appNfse .nav-tabs > li.active a:focus{
+    border-color: #400040;
+}
+.appNfse .nav li.active a,
+.appNfse .nav a:hover{
+    color: #400040;
+}
+.appNfse .add-action{
+    color: #400040;
+}
+.appNfse .be-radio-icon input[type="radio"]:checked + label{
+    border-color: #400040;
+    color: #400040;
+}
+.appNfse .be-left-sidebar .sidebar-elements > li.active > a,
+.appNfse .be-left-sidebar .sidebar-elements > li.active > a > span{
+    color: #400040;
+}
+.appNfse .page-aside .list-group li:hover{
+    background-color: #f0f0f0;
+}
+.appNfse .page-aside .list-group li a{
+    color: #646464;
+}
+.appNfse .page-aside .list-group li a:hover,
+.appNfse .page-aside .list-group li:hover a,
+.appNfse .page-aside .list-group-item.active a{
+    color: #400040;
+    background-color: #f0f0f0;
+}
+.appNfse .page-aside .list-group-item.active,
+.appNfse .page-aside .list-group-item.active:hover,
+.appNfse .page-aside .list-group-item.active:focus{
+    color: #400040;
+    background-color: #f0f0f0;
+    border-color: #f0f0f0;
+}
+.appNfse .add-action{
+    color: #400040;
+}
+.appNfse .be-radio-icon input[type="radio"]:checked + label{
+    border-color: #400040;
+    color: #400040;
+}
+.appNfse .btn-primary{
+    border-color: #400040;
+    background-color: #400040;
+    border-color: #400040;
+}
+.appNfse .btn-primary:focus,
+.appNfse .btn-primary.focus {
+    background-color: #400040;
+    border-color: #400040;
+}
+.appNfse .btn-primary:hover {
+    background-color: #400040;
+    border-color: #400040;
+}
+.appNfse .btn-primary:active,
+.appNfse .btn-primary.active,
+.appNfse .open > .dropdown-toggle.btn-primary {  
+    background-color: #400040;
+    border-color: #400040;
+}
+.appNfse .btn-primary:active:hover,
+.appNfse .btn-primary.active:hover,
+.appNfse .open > .dropdown-toggle.btn-primary:hover,
+.appNfse .btn-primary:active:focus,
+.appNfse .btn-primary.active:focus,
+.appNfse .open > .dropdown-toggle.btn-primary:focus,
+.appNfse .btn-primary:active.focus,
+.appNfse .btn-primary.active.focus,
+.appNfse .open > .dropdown-toggle.btn-primary.focus {
+    background-color: #400040;
+    border-color: #400040;
+}
+
+.appNfse .btn-success {
+    border-color: #400040;
+    background-color: #400040;
+    border-color: #400040;
+}
+.appNfse .btn-success:focus,
+.appNfse .btn-success.focus {
+    background-color: #400040;
+    border-color: #400040;
+}
+.appNfse .btn-success:hover {
+    background-color: #400040;
+    border-color: #400040;
+}
+.appNfse .btn-success:active,
+.appNfse .btn-success.active,
+.appNfse .open > .dropdown-toggle.btn-success {
+    background-color: #400040;
+    border-color: #400040;
+}
+.appNfse .btn-success:active:hover,
+.appNfse .btn-success.active:hover,
+.appNfse .open > .dropdown-toggle.btn-success:hover,
+.appNfse .btn-success:active:focus,
+.appNfse .btn-success.active:focus,
+.appNfse .open > .dropdown-toggle.btn-success:focus,
+.appNfse .btn-success:active.focus,
+.appNfse .btn-success.active.focus,
+.appNfse .open > .dropdown-toggle.btn-success.focus {
+    background-color: #400040;
+    border-color: #400040;
+}
+.appNfse .btn-success.disabled:hover,
+.appNfse .btn-success[disabled]:hover,
+.appNfse fieldset[disabled] .btn-success:hover,
+.appNfse .btn-success.disabled:focus,
+.appNfse .btn-success[disabled]:focus,
+.appNfse fieldset[disabled] .btn-success:focus,
+.appNfse .btn-success.disabled.focus,
+.appNfse .btn-success[disabled].focus,
+.appNfse fieldset[disabled] .btn-success.focus {
+    background-color: #400040;
+    border-color: #400040;
+}
+.appNfse .btn-success .badge {
+    color: #400040;
+}
+.appNfse .btn-success:focus,
+.appNfse .btn-success.focus {  
+    background-color: #400040;
+    border-color: #400040;
+}
+.appNfse .btn-success:hover,
+.appNfse .btn-success.hover {
+    box-shadow: inset 0 -1px 0 #400040;
+    background-color: #400040;
+    border-color: #400040;
+    border-bottom-color: #400040;
+}
+.appNfse .btn-success:active,
+.appNfse .btn-success.active,
+.appNfse .open > .dropdown-toggle.btn-success {
+    box-shadow: inset 0 2px 0 #400040;
+    background-color: #400040;
+    border-color: #400040;
+    border-top-color: #400040;
+}
+.appNfse .btn-success:active:hover,
+.appNfse .btn-success.active:hover,
+.appNfse .open > .dropdown-toggle.btn-success:hover,
+.appNfse .btn-success:active:focus,
+.appNfse .btn-success.active:focus,
+.appNfse .open > .dropdown-toggle.btn-success:focus,
+.appNfse .btn-success:active.focus,
+.appNfse .btn-success.active.focus,
+.appNfse .open > .dropdown-toggle.btn-success.focus {  
+    background-color: #400040;  
+    border-top-color: #400040;
+    box-shadow: inset 0 2px 0 #400040;
+}
+.appNfse .hvr-buzz {color: #400040;}
+.appNfse .be-notifications .notification:hover{background-color: #400040;}
+.appNfse .be-notifications .notification > a .notification-info .user-name{color: #400040;}
+
+
 
 /** app Licitacoes **/
-.appLicitacoes-bar {
-	background-color: #ff7373;
-}
 .navbar-header.appLicitacoes-bar {
-	background-color: #FFFFFF;
+    background-color: #FFFFFF;
 }
 .page-title.appLicitacoes-bar > span {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .material-icons.appLicitacoes-bar {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .licitacoes-icon {
-	color: #ff7373;
+    color: #ff7373;
 }
+.appLicitacoes .be-right-navbar{
+    background-color: #ff7373;
+    border-bottom-color: #ff7373;
+}
+.appLicitacoes .nav-tabs > li.active a, 
+.appLicitacoes .nav-tabs > li.active a:hover, 
+.appLicitacoes .nav-tabs > li.active a:focus{
+    border-color: #ff7373;
+}
+.appLicitacoes .nav li.active a,
+.appLicitacoes .nav a:hover{
+    color: #ff7373;
+}
+.appLicitacoes .add-action{
+    color: #ff7373;
+}
+.appLicitacoes .be-radio-icon input[type="radio"]:checked + label{
+    border-color: #ff7373;
+    color: #ff7373;
+}
+.appLicitacoes .be-left-sidebar .sidebar-elements > li.active > a,
+.appLicitacoes .be-left-sidebar .sidebar-elements > li.active > a > span{
+    color: #ff7373;
+}
+.appLicitacoes .page-aside .list-group li:hover{
+    background-color: #f0f0f0;
+}
+.appLicitacoes .page-aside .list-group li a{
+    color: #646464;
+}
+.appLicitacoes .page-aside .list-group li a:hover,
+.appLicitacoes .page-aside .list-group li:hover a,
+.appLicitacoes .page-aside .list-group-item.active a{
+    color: #ff7373;
+    background-color: #f0f0f0;
+}
+.appLicitacoes .page-aside .list-group-item.active,
+.appLicitacoes .page-aside .list-group-item.active:hover,
+.appLicitacoes .page-aside .list-group-item.active:focus{
+    color: #ff7373;
+    background-color: #f0f0f0;
+    border-color: #f0f0f0;
+}
+.appLicitacoes .add-action{
+    color: #ff7373;
+}
+.appLicitacoes .be-radio-icon input[type="radio"]:checked + label{
+    border-color: #ff7373;
+    color: #ff7373;
+}
+.appLicitacoes .btn-primary{
+    border-color: #ff7373;
+    background-color: #ff7373;
+    border-color: #ff7373;
+}
+.appLicitacoes .btn-primary:focus,
+.appLicitacoes .btn-primary.focus {
+    background-color: #ff7373;
+    border-color: #ff7373;
+}
+.appLicitacoes .btn-primary:hover {
+    background-color: #ff7373;
+    border-color: #ff7373;
+}
+.appLicitacoes .btn-primary:active,
+.appLicitacoes .btn-primary.active,
+.appLicitacoes .open > .dropdown-toggle.btn-primary {  
+    background-color: #ff7373;
+    border-color: #ff7373;
+}
+.appLicitacoes .btn-primary:active:hover,
+.appLicitacoes .btn-primary.active:hover,
+.appLicitacoes .open > .dropdown-toggle.btn-primary:hover,
+.appLicitacoes .btn-primary:active:focus,
+.appLicitacoes .btn-primary.active:focus,
+.appLicitacoes .open > .dropdown-toggle.btn-primary:focus,
+.appLicitacoes .btn-primary:active.focus,
+.appLicitacoes .btn-primary.active.focus,
+.appLicitacoes .open > .dropdown-toggle.btn-primary.focus {
+    background-color: #ff7373;
+    border-color: #ff7373;
+}
+
+.appLicitacoes .btn-success {
+    border-color: #ff7373;
+    background-color: #ff7373;
+    border-color: #ff7373;
+}
+.appLicitacoes .btn-success:focus,
+.appLicitacoes .btn-success.focus {
+    background-color: #ff7373;
+    border-color: #ff7373;
+}
+.appLicitacoes .btn-success:hover {
+    background-color: #ff7373;
+    border-color: #ff7373;
+}
+.appLicitacoes .btn-success:active,
+.appLicitacoes .btn-success.active,
+.appLicitacoes .open > .dropdown-toggle.btn-success {
+    background-color: #ff7373;
+    border-color: #ff7373;
+}
+.appLicitacoes .btn-success:active:hover,
+.appLicitacoes .btn-success.active:hover,
+.appLicitacoes .open > .dropdown-toggle.btn-success:hover,
+.appLicitacoes .btn-success:active:focus,
+.appLicitacoes .btn-success.active:focus,
+.appLicitacoes .open > .dropdown-toggle.btn-success:focus,
+.appLicitacoes .btn-success:active.focus,
+.appLicitacoes .btn-success.active.focus,
+.appLicitacoes .open > .dropdown-toggle.btn-success.focus {
+    background-color: #ff7373;
+    border-color: #ff7373;
+}
+.appLicitacoes .btn-success.disabled:hover,
+.appLicitacoes .btn-success[disabled]:hover,
+.appLicitacoes fieldset[disabled] .btn-success:hover,
+.appLicitacoes .btn-success.disabled:focus,
+.appLicitacoes .btn-success[disabled]:focus,
+.appLicitacoes fieldset[disabled] .btn-success:focus,
+.appLicitacoes .btn-success.disabled.focus,
+.appLicitacoes .btn-success[disabled].focus,
+.appLicitacoes fieldset[disabled] .btn-success.focus {
+    background-color: #ff7373;
+    border-color: #ff7373;
+}
+.appLicitacoes .btn-success .badge {
+    color: #ff7373;
+}
+.appLicitacoes .btn-success:focus,
+.appLicitacoes .btn-success.focus {  
+    background-color: #ff7373;
+    border-color: #ff7373;
+}
+.appLicitacoes .btn-success:hover,
+.appLicitacoes .btn-success.hover {
+    box-shadow: inset 0 -1px 0 #ff7373;
+    background-color: #ff7373;
+    border-color: #ff7373;
+    border-bottom-color: #ff7373;
+}
+.appLicitacoes .btn-success:active,
+.appLicitacoes .btn-success.active,
+.appLicitacoes .open > .dropdown-toggle.btn-success {
+    box-shadow: inset 0 2px 0 #ff7373;
+    background-color: #ff7373;
+    border-color: #ff7373;
+    border-top-color: #ff7373;
+}
+.appLicitacoes .btn-success:active:hover,
+.appLicitacoes .btn-success.active:hover,
+.appLicitacoes .open > .dropdown-toggle.btn-success:hover,
+.appLicitacoes .btn-success:active:focus,
+.appLicitacoes .btn-success.active:focus,
+.appLicitacoes .open > .dropdown-toggle.btn-success:focus,
+.appLicitacoes .btn-success:active.focus,
+.appLicitacoes .btn-success.active.focus,
+.appLicitacoes .open > .dropdown-toggle.btn-success.focus {  
+    background-color: #ff7373;  
+    border-top-color: #ff7373;
+    box-shadow: inset 0 2px 0 #ff7373;
+}
+.appLicitacoes .hvr-buzz {color: #ff7373;}
+.appLicitacoes .be-notifications .notification:hover{background-color: #ff7373;}
+.appLicitacoes .be-notifications .notification > a .notification-info .user-name{color: #ff7373;}
+
+
 
 /** app Drive **/
-.appDrive-bar {
-	background-color: #3acecc;
-}
 .navbar-header.appDrive-bar {
-	background-color: #FFFFFF;
+    background-color: #FFFFFF;
 }
 .page-title.appDrive-bar > span {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .material-icons.appDrive-bar {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .drive-icon {
-	color: #3acecc;
+    color: #3acecc;
 }
+.appDrive .be-right-navbar{
+    background-color: #3acecc;
+    border-bottom-color: #3acecc;
+}
+.appDrive .nav-tabs > li.active a, 
+.appDrive .nav-tabs > li.active a:hover, 
+.appDrive .nav-tabs > li.active a:focus{
+    border-color: #3acecc;
+}
+.appDrive .nav li.active a,
+.appDrive .nav a:hover{
+    color: #3acecc;
+}
+.appDrive .add-action{
+    color: #3acecc;
+}
+.appDrive .be-radio-icon input[type="radio"]:checked + label{
+    border-color: #3acecc;
+    color: #3acecc;
+}
+.appDrive .be-left-sidebar .sidebar-elements > li.active > a,
+.appDrive .be-left-sidebar .sidebar-elements > li.active > a > span{
+    color: #3acecc;
+}
+.appDrive .page-aside .list-group li:hover{
+    background-color: #f0f0f0;
+}
+.appDrive .page-aside .list-group li a{
+    color: #646464;
+}
+.appDrive .page-aside .list-group li a:hover,
+.appDrive .page-aside .list-group li:hover a,
+.appDrive .page-aside .list-group-item.active a{
+    color: #3acecc;
+    background-color: #f0f0f0;
+}
+.appDrive .page-aside .list-group-item.active,
+.appDrive .page-aside .list-group-item.active:hover,
+.appDrive .page-aside .list-group-item.active:focus{
+    color: #3acecc;
+    background-color: #f0f0f0;
+    border-color: #f0f0f0;
+}
+.appDrive .add-action{
+    color: #3acecc;
+}
+.appDrive .be-radio-icon input[type="radio"]:checked + label{
+    border-color: #3acecc;
+    color: #3acecc;
+}
+.appDrive .btn-primary{
+    border-color: #3acecc;
+    background-color: #3acecc;
+    border-color: #3acecc;
+}
+.appDrive .btn-primary:focus,
+.appDrive .btn-primary.focus {
+    background-color: #3acecc;
+    border-color: #3acecc;
+}
+.appDrive .btn-primary:hover {
+    background-color: #3acecc;
+    border-color: #3acecc;
+}
+.appDrive .btn-primary:active,
+.appDrive .btn-primary.active,
+.appDrive .open > .dropdown-toggle.btn-primary {  
+    background-color: #3acecc;
+    border-color: #3acecc;
+}
+.appDrive .btn-primary:active:hover,
+.appDrive .btn-primary.active:hover,
+.appDrive .open > .dropdown-toggle.btn-primary:hover,
+.appDrive .btn-primary:active:focus,
+.appDrive .btn-primary.active:focus,
+.appDrive .open > .dropdown-toggle.btn-primary:focus,
+.appDrive .btn-primary:active.focus,
+.appDrive .btn-primary.active.focus,
+.appDrive .open > .dropdown-toggle.btn-primary.focus {
+    background-color: #3acecc;
+    border-color: #3acecc;
+}
+
+.appDrive .btn-success {
+    border-color: #3acecc;
+    background-color: #3acecc;
+    border-color: #3acecc;
+}
+.appDrive .btn-success:focus,
+.appDrive .btn-success.focus {
+    background-color: #3acecc;
+    border-color: #3acecc;
+}
+.appDrive .btn-success:hover {
+    background-color: #3acecc;
+    border-color: #3acecc;
+}
+.appDrive .btn-success:active,
+.appDrive .btn-success.active,
+.appDrive .open > .dropdown-toggle.btn-success {
+    background-color: #3acecc;
+    border-color: #3acecc;
+}
+.appDrive .btn-success:active:hover,
+.appDrive .btn-success.active:hover,
+.appDrive .open > .dropdown-toggle.btn-success:hover,
+.appDrive .btn-success:active:focus,
+.appDrive .btn-success.active:focus,
+.appDrive .open > .dropdown-toggle.btn-success:focus,
+.appDrive .btn-success:active.focus,
+.appDrive .btn-success.active.focus,
+.appDrive .open > .dropdown-toggle.btn-success.focus {
+    background-color: #3acecc;
+    border-color: #3acecc;
+}
+.appDrive .btn-success.disabled:hover,
+.appDrive .btn-success[disabled]:hover,
+.appDrive fieldset[disabled] .btn-success:hover,
+.appDrive .btn-success.disabled:focus,
+.appDrive .btn-success[disabled]:focus,
+.appDrive fieldset[disabled] .btn-success:focus,
+.appDrive .btn-success.disabled.focus,
+.appDrive .btn-success[disabled].focus,
+.appDrive fieldset[disabled] .btn-success.focus {
+    background-color: #3acecc;
+    border-color: #3acecc;
+}
+.appDrive .btn-success .badge {
+    color: #3acecc;
+}
+.appDrive .btn-success:focus,
+.appDrive .btn-success.focus {  
+    background-color: #3acecc;
+    border-color: #3acecc;
+}
+.appDrive .btn-success:hover,
+.appDrive .btn-success.hover {
+    box-shadow: inset 0 -1px 0 #3acecc;
+    background-color: #3acecc;
+    border-color: #3acecc;
+    border-bottom-color: #3acecc;
+}
+.appDrive .btn-success:active,
+.appDrive .btn-success.active,
+.appDrive .open > .dropdown-toggle.btn-success {
+    box-shadow: inset 0 2px 0 #3acecc;
+    background-color: #3acecc;
+    border-color: #3acecc;
+    border-top-color: #3acecc;
+}
+.appDrive .btn-success:active:hover,
+.appDrive .btn-success.active:hover,
+.appDrive .open > .dropdown-toggle.btn-success:hover,
+.appDrive .btn-success:active:focus,
+.appDrive .btn-success.active:focus,
+.appDrive .open > .dropdown-toggle.btn-success:focus,
+.appDrive .btn-success:active.focus,
+.appDrive .btn-success.active.focus,
+.appDrive .open > .dropdown-toggle.btn-success.focus {  
+    background-color: #3acecc;  
+    border-top-color: #3acecc;
+    box-shadow: inset 0 2px 0 #3acecc;
+}
+.appDrive .hvr-buzz {color: #3acecc;}
+.appDrive .be-notifications .notification:hover{background-color: #3acecc;}
+.appDrive .be-notifications .notification > a .notification-info .user-name{color: #3acecc;}
+
 
 /** app Atuarial **/
-.appAtuarial-bar {
-	background-color: #483d8b;
-}
 .navbar-header.appAtuarial-bar {
-	background-color: #FFFFFF;
+    background-color: #FFFFFF;
 }
 .page-title.appAtuarial-bar > span {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .material-icons.appAtuarial-bar {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .atuarial-icon {
-	color: #483d8b;
+    color: #483d8b;
 }
+.appAtuarial .be-right-navbar{
+    background-color: #483d8b;
+    border-bottom-color: #483d8b;
+}
+
+.appAtuarial .nav-tabs > li.active a, 
+.appAtuarial .nav-tabs > li.active a:hover, 
+.appAtuarial .nav-tabs > li.active a:focus{
+    border-color: #483d8b;
+}
+.appAtuarial .nav li.active a,
+.appAtuarial .nav a:hover{
+    color: #483d8b;
+}
+.appAtuarial .add-action{
+    color: #483d8b;
+}
+.appAtuarial .be-radio-icon input[type="radio"]:checked + label{
+    border-color: #483d8b;
+    color: #483d8b;
+}
+.appAtuarial .be-left-sidebar .sidebar-elements > li.active > a,
+.appAtuarial .be-left-sidebar .sidebar-elements > li.active > a > span{
+    color: #483d8b;
+}
+.appAtuarial .page-aside .list-group li:hover{
+    background-color: #f0f0f0;
+}
+.appAtuarial .page-aside .list-group li a{
+    color: #646464;
+}
+.appAtuarial .page-aside .list-group li a:hover,
+.appAtuarial .page-aside .list-group li:hover a,
+.appAtuarial .page-aside .list-group-item.active a{
+    color: #483d8b;
+    background-color: #f0f0f0;
+}
+.appAtuarial .page-aside .list-group-item.active,
+.appAtuarial .page-aside .list-group-item.active:hover,
+.appAtuarial .page-aside .list-group-item.active:focus{
+    color: #483d8b;
+    background-color: #f0f0f0;
+    border-color: #f0f0f0;
+}
+.appAtuarial .add-action{
+    color: #483d8b;
+}
+.appAtuarial .be-radio-icon input[type="radio"]:checked + label{
+    border-color: #483d8b;
+    color: #483d8b;
+}
+.appAtuarial .btn-primary{
+    border-color: #483d8b;
+    background-color: #483d8b;
+    border-color: #483d8b;
+}
+.appAtuarial .btn-primary:focus,
+.appAtuarial .btn-primary.focus {
+    background-color: #483d8b;
+    border-color: #483d8b;
+}
+.appAtuarial .btn-primary:hover {
+    background-color: #483d8b;
+    border-color: #483d8b;
+}
+.appAtuarial .btn-primary:active,
+.appAtuarial .btn-primary.active,
+.appAtuarial .open > .dropdown-toggle.btn-primary {  
+    background-color: #483d8b;
+    border-color: #483d8b;
+}
+.appAtuarial .btn-primary:active:hover,
+.appAtuarial .btn-primary.active:hover,
+.appAtuarial .open > .dropdown-toggle.btn-primary:hover,
+.appAtuarial .btn-primary:active:focus,
+.appAtuarial .btn-primary.active:focus,
+.appAtuarial .open > .dropdown-toggle.btn-primary:focus,
+.appAtuarial .btn-primary:active.focus,
+.appAtuarial .btn-primary.active.focus,
+.appAtuarial .open > .dropdown-toggle.btn-primary.focus {
+    background-color: #483d8b;
+    border-color: #483d8b
+}
+
+.appAtuarial .btn-success {
+    border-color: #483d8b;
+    background-color: #483d8b;
+    border-color: #483d8b;
+}
+.appAtuarial .btn-success:focus,
+.appAtuarial .btn-success.focus {
+    background-color: #483d8b;
+    border-color: #483d8b;
+}
+.appAtuarial .btn-success:hover {
+    background-color: #483d8b;
+    border-color: #483d8b;
+}
+.appAtuarial .btn-success:active,
+.appAtuarial .btn-success.active,
+.appAtuarial .open > .dropdown-toggle.btn-success {
+    background-color: #483d8b;
+    border-color: #483d8b;
+}
+.appAtuarial .btn-success:active:hover,
+.appAtuarial .btn-success.active:hover,
+.appAtuarial .open > .dropdown-toggle.btn-success:hover,
+.appAtuarial .btn-success:active:focus,
+.appAtuarial .btn-success.active:focus,
+.appAtuarial .open > .dropdown-toggle.btn-success:focus,
+.appAtuarial .btn-success:active.focus,
+.appAtuarial .btn-success.active.focus,
+.appAtuarial .open > .dropdown-toggle.btn-success.focus {
+    background-color: #483d8b;
+    border-color: #483d8b;
+}
+.appAtuarial .btn-success.disabled:hover,
+.appAtuarial .btn-success[disabled]:hover,
+.appAtuarial fieldset[disabled] .btn-success:hover,
+.appAtuarial .btn-success.disabled:focus,
+.appAtuarial .btn-success[disabled]:focus,
+.appAtuarial fieldset[disabled] .btn-success:focus,
+.appAtuarial .btn-success.disabled.focus,
+.appAtuarial .btn-success[disabled].focus,
+.appAtuarial fieldset[disabled] .btn-success.focus {
+    background-color: #483d8b;
+    border-color: #483d8b;
+}
+.appAtuarial .btn-success .badge {
+    color: #483d8b;
+}
+.appAtuarial .btn-success:focus,
+.appAtuarial .btn-success.focus {  
+    background-color: #483d8b;
+    border-color: #483d8b;
+}
+.appAtuarial .btn-success:hover,
+.appAtuarial .btn-success.hover {
+    box-shadow: inset 0 -1px 0 #483d8b;
+    background-color: #483d8b;
+    border-color: #483d8b;
+    border-bottom-color: #483d8b;
+}
+.appAtuarial .btn-success:active,
+.appAtuarial .btn-success.active,
+.appAtuarial .open > .dropdown-toggle.btn-success {
+    box-shadow: inset 0 2px 0 #483d8b;
+    background-color: #483d8b;
+    border-color: #483d8b;
+    border-top-color: #483d8b;
+}
+.appAtuarial .btn-success:active:hover,
+.appAtuarial .btn-success.active:hover,
+.appAtuarial .open > .dropdown-toggle.btn-success:hover,
+.appAtuarial .btn-success:active:focus,
+.appAtuarial .btn-success.active:focus,
+.appAtuarial .open > .dropdown-toggle.btn-success:focus,
+.appAtuarial .btn-success:active.focus,
+.appAtuarial .btn-success.active.focus,
+.appAtuarial .open > .dropdown-toggle.btn-success.focus {  
+    background-color: #483d8b;  
+    border-top-color: #483d8b;
+    box-shadow: inset 0 2px 0 #483d8b;
+}
+.appAtuarial .hvr-buzz {color: #483d8b;}
+.appAtuarial .be-notifications .notification:hover{background-color: #483d8b;}
+.appAtuarial .be-notifications .notification > a .notification-info .user-name{color: #483d8b;}
+
 
 /** app Biometria **/
-.appBiometria-bar {
-	background-color: #f442eb;
-}
 .navbar-header.appBiometria-bar {
-	background-color: #FFFFFF;
+    background-color: #FFFFFF;
 }
 .page-title.appBiometria-bar > span {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .material-icons.appBiometria-bar {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .biometria-icon {
-	color: #f442eb;
+    color: #f442eb;
 }
+.appBiometria .be-right-navbar{
+    background-color: #f442eb;
+    border-bottom-color: #f442eb;
+}
+
+.appBiometria .nav-tabs > li.active a, 
+.appBiometria .nav-tabs > li.active a:hover, 
+.appBiometria .nav-tabs > li.active a:focus{
+    border-color: #f442eb;
+}
+.appBiometria .nav li.active a,
+.appBiometria .nav a:hover{
+    color: #f442eb;
+}
+.appBiometria .add-action{
+    color: #f442eb;
+}
+.appBiometria .be-radio-icon input[type="radio"]:checked + label{
+    border-color: #f442eb;
+    color: #f442eb;
+}
+.appBiometria .be-left-sidebar .sidebar-elements > li.active > a,
+.appBiometria .be-left-sidebar .sidebar-elements > li.active > a > span{
+    color: #f442eb;
+}
+.appBiometria .page-aside .list-group li:hover{
+    background-color: #f0f0f0;
+}
+.appBiometria .page-aside .list-group li a{
+    color: #646464;
+}
+.appBiometria .page-aside .list-group li a:hover,
+.appBiometria .page-aside .list-group li:hover a,
+.appBiometria .page-aside .list-group-item.active a{
+    color: #f442eb;
+    background-color: #f0f0f0;
+}
+.appBiometria .page-aside .list-group-item.active,
+.appBiometria .page-aside .list-group-item.active:hover,
+.appBiometria .page-aside .list-group-item.active:focus{
+    color: #f442eb;
+    background-color: #f0f0f0;
+    border-color: #f0f0f0;
+}
+.appBiometria .add-action{
+    color: #f442eb;
+}
+.appBiometria .be-radio-icon input[type="radio"]:checked + label{
+    border-color: #f442eb;
+    color: #f442eb;
+}
+.appBiometria .btn-primary{
+    border-color: #f442eb;
+    background-color: #f442eb;
+    border-color: #f442eb;
+}
+.appBiometria .btn-primary:focus,
+.appBiometria .btn-primary.focus {
+    background-color: #f442eb;
+    border-color: #f442eb;
+}
+.appBiometria .btn-primary:hover {
+    background-color: #f442eb;
+    border-color: #f442eb;
+}
+.appBiometria .btn-primary:active,
+.appBiometria .btn-primary.active,
+.appBiometria .open > .dropdown-toggle.btn-primary {  
+    background-color: #f442eb;
+    border-color: #f442eb;
+}
+.appBiometria .btn-primary:active:hover,
+.appBiometria .btn-primary.active:hover,
+.appBiometria .open > .dropdown-toggle.btn-primary:hover,
+.appBiometria .btn-primary:active:focus,
+.appBiometria .btn-primary.active:focus,
+.appBiometria .open > .dropdown-toggle.btn-primary:focus,
+.appBiometria .btn-primary:active.focus,
+.appBiometria .btn-primary.active.focus,
+.appBiometria .open > .dropdown-toggle.btn-primary.focus {
+    background-color: #f442eb;
+    border-color: #f442eb;
+}
+
+.appBiometria .btn-success {
+    border-color: #f442eb;
+    background-color: #f442eb;
+    border-color: #f442eb;
+}
+.appBiometria .btn-success:focus,
+.appBiometria .btn-success.focus {
+    background-color: #f442eb;
+    border-color: #f442eb;
+}
+.appBiometria .btn-success:hover {
+    background-color: #f442eb;
+    border-color: #f442eb;
+}
+.appBiometria .btn-success:active,
+.appBiometria .btn-success.active,
+.appBiometria .open > .dropdown-toggle.btn-success {
+    background-color: #f442eb;
+    border-color: #f442eb;
+}
+.appBiometria .btn-success:active:hover,
+.appBiometria .btn-success.active:hover,
+.appBiometria .open > .dropdown-toggle.btn-success:hover,
+.appBiometria .btn-success:active:focus,
+.appBiometria .btn-success.active:focus,
+.appBiometria .open > .dropdown-toggle.btn-success:focus,
+.appBiometria .btn-success:active.focus,
+.appBiometria .btn-success.active.focus,
+.appBiometria .open > .dropdown-toggle.btn-success.focus {
+    background-color: #f442eb;
+    border-color: #f442eb;
+}
+.appBiometria .btn-success.disabled:hover,
+.appBiometria .btn-success[disabled]:hover,
+.appBiometria fieldset[disabled] .btn-success:hover,
+.appBiometria .btn-success.disabled:focus,
+.appBiometria .btn-success[disabled]:focus,
+.appBiometria fieldset[disabled] .btn-success:focus,
+.appBiometria .btn-success.disabled.focus,
+.appBiometria .btn-success[disabled].focus,
+.appBiometria fieldset[disabled] .btn-success.focus {
+    background-color: #f442eb;
+    border-color: #f442eb;
+}
+.appBiometria .btn-success .badge {
+    color: #f442eb;
+}
+.appBiometria .btn-success:focus,
+.appDashboard .btn-success.focus {  
+    background-color: #f442eb;
+    border-color: #f442eb;
+}
+.appBiometria .btn-success:hover,
+.appBiometria .btn-success.hover {
+    box-shadow: inset 0 -1px 0 #f442eb;
+    background-color: #f442eb;
+    border-color: #f442eb;
+    border-bottom-color: #f442eb;
+}
+.appBiometria .btn-success:active,
+.appBiometria .btn-success.active,
+.appBiometria .open > .dropdown-toggle.btn-success {
+    box-shadow: inset 0 2px 0 #f442eb;
+    background-color: #f442eb;
+    border-color: #f442eb;
+    border-top-color: #f442eb;
+}
+.appBiometria .btn-success:active:hover,
+.appBiometria .btn-success.active:hover,
+.appBiometria .open > .dropdown-toggle.btn-success:hover,
+.appBiometria .btn-success:active:focus,
+.appBiometria .btn-success.active:focus,
+.appBiometria .open > .dropdown-toggle.btn-success:focus,
+.appBiometria .btn-success:active.focus,
+.appBiometria .btn-success.active.focus,
+.appBiometria .open > .dropdown-toggle.btn-success.focus {  
+    background-color: #f442eb;  
+    border-top-color: #f442eb;
+    box-shadow: inset 0 2px 0 #f442eb;
+}
+.appBiometria .hvr-buzz {color: #f442eb;}
+.appBiometria .be-notifications .notification:hover{background-color: #f442eb;}
+.appBiometria .be-notifications .notification > a .notification-info .user-name{color: #f442eb;}
+
 
 /** app Invest **/
-.appInvest-bar {
-	background-color: #4285f4;
-}
 .navbar-header.appInvest-bar {
-	background-color: #FFFFFF;
+    background-color: #FFFFFF;
 }
 .page-title.appInvest-bar > span {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .material-icons.appInvest-bar {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .invest-icon {
-	color: #4285f4;
+    color: #4285f4;
+}
+.appInvest .be-right-navbar{
+    background-color: #4285f4;
+    border-bottom-color: #4285f4;
 }
 
-/** app Consig **/
-.appConsig-bar {
-	background-color: #ad854a;
+.appInvest .nav-tabs > li.active a, 
+.appInvest .nav-tabs > li.active a:hover, 
+.appInvest .nav-tabs > li.active a:focus{
+    border-color: #4285f4;
 }
+.appInvest .nav li.active a,
+.appInvest .nav a:hover{
+    color: #4285f4;
+}
+.appInvest .add-action{
+    color: #4285f4;
+}
+.appInvest .be-radio-icon input[type="radio"]:checked + label{
+    border-color: #4285f4;
+    color: #4285f4;
+}
+.appInvest .be-left-sidebar .sidebar-elements > li.active > a,
+.appInvest .be-left-sidebar .sidebar-elements > li.active > a > span{
+    color: #4285f4;
+}
+.appInvest .page-aside .list-group li:hover{
+    background-color: #f0f0f0;
+}
+.appInvest .page-aside .list-group li a{
+    color: #646464;
+}
+.appInvest .page-aside .list-group li a:hover,
+.appInvest .page-aside .list-group li:hover a,
+.appInvest .page-aside .list-group-item.active a{
+    color: #4285f4;
+    background-color: #f0f0f0;
+}
+.appInvest .page-aside .list-group-item.active,
+.appInvest .page-aside .list-group-item.active:hover,
+.appInvest .page-aside .list-group-item.active:focus{
+    color: #4285f4;
+    background-color: #f0f0f0;
+    border-color: #f0f0f0;
+}
+
+.appInvest .add-action{
+    color: #4285f4;
+}
+.appInvest .be-radio-icon input[type="radio"]:checked + label{
+    border-color: #4285f4;
+    color: #4285f4;
+}
+
+.appInvest .btn-primary{
+    border-color: #4285f4;
+    background-color: #4285f4;
+    border-color: #4285f4;
+}
+.appInvest .btn-primary:focus,
+.appInvest .btn-primary.focus {
+    background-color: #4285f4;
+    border-color: #4285f4;
+}
+.appInvest .btn-primary:hover {
+    background-color: #4285f4;
+    border-color: #4285f4;
+}
+.appInvest .btn-primary:active,
+.appInvest .btn-primary.active,
+.appInvest .open > .dropdown-toggle.btn-primary {  
+    background-color: #4285f4;
+    border-color: #4285f4;
+}
+.appInvest .btn-primary:active:hover,
+.appInvest .btn-primary.active:hover,
+.appInvest .open > .dropdown-toggle.btn-primary:hover,
+.appInvest .btn-primary:active:focus,
+.appInvest .btn-primary.active:focus,
+.appInvest .open > .dropdown-toggle.btn-primary:focus,
+.appInvest .btn-primary:active.focus,
+.appInvest .btn-primary.active.focus,
+.appInvest .open > .dropdown-toggle.btn-primary.focus {
+    background-color: #4285f4;
+    border-color: #4285f4;
+}
+
+.appInvest .btn-success {
+    border-color: #4285f4;
+    background-color: #4285f4;
+    border-color: #4285f4;
+}
+.appInvest .btn-success:focus,
+.appInvest .btn-success.focus {
+    background-color: #4285f4;
+    border-color: #4285f4;
+}
+.appInvest .btn-success:hover {
+    background-color: #4285f4;
+    border-color: #4285f4;
+}
+.appInvest .btn-success:active,
+.appInvest .btn-success.active,
+.appInvest .open > .dropdown-toggle.btn-success {
+    background-color: #4285f4;
+    border-color: #4285f4;
+}
+.appInvest .btn-success:active:hover,
+.appInvest .btn-success.active:hover,
+.appInvest .open > .dropdown-toggle.btn-success:hover,
+.appInvest .btn-success:active:focus,
+.appInvest .btn-success.active:focus,
+.appInvest .open > .dropdown-toggle.btn-success:focus,
+.appInvest .btn-success:active.focus,
+.appInvest .btn-success.active.focus,
+.appInvest .open > .dropdown-toggle.btn-success.focus {
+    background-color: #4285f4;
+    border-color: #4285f4;
+}
+.appInvest .btn-success.disabled:hover,
+.appInvest .btn-success[disabled]:hover,
+.appInvest fieldset[disabled] .btn-success:hover,
+.appInvest .btn-success.disabled:focus,
+.appInvest .btn-success[disabled]:focus,
+.appInvest fieldset[disabled] .btn-success:focus,
+.appInvest .btn-success.disabled.focus,
+.appInvest .btn-success[disabled].focus,
+.appInvest fieldset[disabled] .btn-success.focus {
+    background-color: #4285f4;
+    border-color: #4285f4;
+}
+.appInvest .btn-success .badge {
+    color: #4285f4;
+}
+.appInvest .btn-success:focus,
+.appInvest .btn-success.focus {  
+    background-color: #4285f4;
+    border-color: #4285f4;
+}
+.appInvest .btn-success:hover,
+.appInvest .btn-success.hover {
+    box-shadow: inset 0 -1px 0 #4285f4;
+    background-color: #4285f4;
+    border-color: #4285f4;
+    border-bottom-color: #4285f4;
+}
+.appInvest .btn-success:active,
+.appInvest .btn-success.active,
+.appInvest .open > .dropdown-toggle.btn-success {
+    box-shadow: inset 0 2px 0 #4285f4;
+    background-color: #4285f4;
+    border-color: #4285f4;
+    border-top-color: #4285f4;
+}
+.appInvest .btn-success:active:hover,
+.appInvest .btn-success.active:hover,
+.appInvest .open > .dropdown-toggle.btn-success:hover,
+.appInvest .btn-success:active:focus,
+.appInvest .btn-success.active:focus,
+.appInvest .open > .dropdown-toggle.btn-success:focus,
+.appInvest .btn-success:active.focus,
+.appInvest .btn-success.active.focus,
+.appInvest .open > .dropdown-toggle.btn-success.focus {  
+    background-color: #4285f4;  
+    border-top-color: #4285f4;
+    box-shadow: inset 0 2px 0 #4285f4;
+}
+.appInvest .hvr-buzz {color: #4285f4;}
+.appInvest .be-notifications .notification:hover{background-color: #4285f4;}
+.appInvest .be-notifications .notification > a .notification-info .user-name{color: #4285f4;}
+
+
+/** app Consig **/
 .navbar-header.appConsig-bar {
-	background-color: #FFFFFF;
+    background-color: #FFFFFF;
 }
 .page-title.appConsig-bar > span {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .material-icons.appConsig-bar {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 .consig-icon {
-	color: #ad854a;
+    color: #ad854a;
 }
+
+.appConsig .be-right-navbar{
+    background-color: #ad854a;
+    border-bottom-color: #ad854a;
+}
+.appConsig .nav-tabs > li.active a, 
+.appConsig .nav-tabs > li.active a:hover, 
+.appConsig .nav-tabs > li.active a:focus{
+    border-color: #ad854a;
+}
+.appConsig .nav li.active a,
+.appConsig .nav a:hover{
+    color: #ad854a;
+}
+.appConsig .add-action{
+    color: #ad854a;
+}
+.appConsig .be-radio-icon input[type="radio"]:checked + label{
+    border-color: #ad854a;
+    color: #ad854a;
+}
+.appConsig .be-left-sidebar .sidebar-elements > li.active > a,
+.appConsig .be-left-sidebar .sidebar-elements > li.active > a > span{
+    color: #ad854a;
+}
+.appConsig .page-aside .list-group li:hover{
+    background-color: #f0f0f0;
+}
+.appConsig .page-aside .list-group li a{
+    color: #646464;
+}
+.appConsig .page-aside .list-group li a:hover,
+.appConsig .page-aside .list-group li:hover a,
+.appConsig .page-aside .list-group-item.active a{
+    color: #ad854a;
+    background-color: #f0f0f0;
+}
+.appConsig .page-aside .list-group-item.active,
+.appConsig .page-aside .list-group-item.active:hover,
+.appConsig .page-aside .list-group-item.active:focus{
+    color: #ad854a;
+    background-color: #f0f0f0;
+    border-color: #f0f0f0;
+}
+.appConsig .add-action{
+    color: #ad854a;
+}
+.appConsig .be-radio-icon input[type="radio"]:checked + label{
+    border-color: #ad854a;
+    color: #ad854a;
+}
+.appConsig .btn-primary{
+    border-color: #ad854a;
+    background-color: #ad854a;
+    border-color: #ad854a;
+}
+.appConsig .btn-primary:focus,
+.appConsig .btn-primary.focus {
+    background-color: #ad854a;
+    border-color: #ad854a;
+}
+.appConsig .btn-primary:hover {
+    background-color: #ad854a;
+    border-color: #ad854a;
+}
+.appConsig .btn-primary:active,
+.appConsig .btn-primary.active,
+.appConsig .open > .dropdown-toggle.btn-primary {  
+    background-color: #ad854a;
+    border-color: #ad854a;
+}
+.appConsig .btn-primary:active:hover,
+.appConsig .btn-primary.active:hover,
+.appConsig .open > .dropdown-toggle.btn-primary:hover,
+.appConsig .btn-primary:active:focus,
+.appConsig .btn-primary.active:focus,
+.appConsig .open > .dropdown-toggle.btn-primary:focus,
+.appConsig .btn-primary:active.focus,
+.appConsig .btn-primary.active.focus,
+.appConsig .open > .dropdown-toggle.btn-primary.focus {
+    background-color: #ad854a;
+    border-color: #ad854a;
+}
+.appConsig .btn-success {
+    border-color: #ad854a;
+    background-color: #ad854a;
+    border-color: #ad854a;
+}
+.appConsig .btn-success:focus,
+.appConsig .btn-success.focus {
+    background-color: #ad854a;
+    border-color: #ad854a;
+}
+.appConsig .btn-success:hover {
+    background-color: #ad854a;
+    border-color: #ad854a;
+}
+.appConsig .btn-success:active,
+.appConsig .btn-success.active,
+.appConsig .open > .dropdown-toggle.btn-success {
+    background-color: #ad854a;
+    border-color: #ad854a;
+}
+.appConsig .btn-success:active:hover,
+.appConsig .btn-success.active:hover,
+.appConsig .open > .dropdown-toggle.btn-success:hover,
+.appConsig .btn-success:active:focus,
+.appConsig .btn-success.active:focus,
+.appConsig .open > .dropdown-toggle.btn-success:focus,
+.appConsig .btn-success:active.focus,
+.appConsig .btn-success.active.focus,
+.appConsig .open > .dropdown-toggle.btn-success.focus {
+    background-color: #ad854a;
+    border-color: #ad854a;
+}
+.appConsig .btn-success.disabled:hover,
+.appConsig .btn-success[disabled]:hover,
+.appConsig fieldset[disabled] .btn-success:hover,
+.appConsig .btn-success.disabled:focus,
+.appConsig .btn-success[disabled]:focus,
+.appConsig fieldset[disabled] .btn-success:focus,
+.appConsig .btn-success.disabled.focus,
+.appConsig .btn-success[disabled].focus,
+.appConsig fieldset[disabled] .btn-success.focus {
+    background-color: #ad854a;
+    border-color: #ad854a;
+}
+.appConsig .btn-success .badge {
+    color: #ad854a;
+}
+.appConsig .btn-success:focus,
+.appConsig .btn-success.focus {  
+    background-color: #ad854a;
+    border-color: #ad854a;
+}
+.appConsig .btn-success:hover,
+.appConsig .btn-success.hover {
+    box-shadow: inset 0 -1px 0 #ad854a;
+    background-color: #ad854a;
+    border-color: #ad854a;
+    border-bottom-color: #ad854a;
+}
+.appConsig .btn-success:active,
+.appConsig .btn-success.active,
+.appConsig .open > .dropdown-toggle.btn-success {
+    box-shadow: inset 0 2px 0 #ad854a;
+    background-color: #ad854a;
+    border-color: #ad854a;
+    border-top-color: #ad854a;
+}
+.appConsig .btn-success:active:hover,
+.appConsig .btn-success.active:hover,
+.appConsig .open > .dropdown-toggle.btn-success:hover,
+.appConsig .btn-success:active:focus,
+.appConsig .btn-success.active:focus,
+.appConsig .open > .dropdown-toggle.btn-success:focus,
+.appConsig .btn-success:active.focus,
+.appConsig .btn-success.active.focus,
+.appConsig .open > .dropdown-toggle.btn-success.focus {  
+    background-color: #ad854a;  
+    border-top-color: #ad854a;
+    box-shadow: inset 0 2px 0 #ad854a;
+}
+.appConsig .hvr-buzz {color: #ad854a;}
+.appConsig .be-notifications .notification:hover{background-color: #ad854a;}
+.appConsig .be-notifications .notification > a .notification-info .user-name{color: #ad854a;}
+
+/** geral **/
+
 .icon-dashboard {
-	margin: 5px;
+    margin: 5px;
 }
 .icon-rounded {
-	border-radius: 20px;
+    border-radius: 20px;
+}
+
+.navbar-header{
+    background-color: #FFFFFF;
+}
+
+#selectWebsite.in .menuWebsite-bar {
+    color: #646464;
+}
+
+.add-action{margin-right: 10px;}
+
+.avatar {
+    width: 144px;
+    margin-right: 40px;
+}
+.avatar img{width: 100%; border: 5px solid #fff;}
+
+.avatar-form{
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 20px;
+    width: 80px;
+    z-index: 999;
+    position: relative;
+}
+.avatar-form .action-edit a{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 40px;
+    color: #fff;
+    text-align: center;
+    padding-top: 25px;
+    text-indent: -9999px;
+}
+.avatar-form .action-edit a:hover{
+    background: rgba(0,0,0,0.5);
+    text-indent: 0;
+}
+
+.material-icons.cloud_upload{font-size: 54px;}
+
+
+
+
+
+
+.dados h1{font-size: 36px;}
+.dados p{font-size: 16px;}
+
+.actions{margin: 0 0 20px 0;}
+
+.page-aside .list-group li a{
+    display: block;
+}
+.page-aside .list-group-item.active:before{
+    font-family: 'Material Icons';
+    content: '\E876';
+    float: right;
+}
+
+
+.list-group-item{border-left: 0; border-right: 0; }
+
+/** overwriting arrow down  **/
+.be-user-nav > li.dropdown > a:after, 
+.be-left-sidebar .left-sidebar-toggle:before, 
+.be-top-header .be-toggle-top-header-menu.collapsed:before{
+    content: '\E313';
+}
+
+/** overwriting arrow up **/
+.be-top-header .be-toggle-top-header-menu:before,
+.be-left-sidebar .left-sidebar-toggle.open:before{ 
+    content: '\E316';
+}
+
+.be-checkbox input[type="checkbox"]:checked + label:before, .be-radio input[type="checkbox"]:checked + label:before, .be-checkbox input[type="radio"]:checked + label:before, .be-radio input[type="radio"]:checked + label:before{
+    content: '\E876';
+}
+.be-scroll-top:before{
+    content: '\E316';
+}
+
+.box-form{width: 30%;}
+.box-form .form-control{padding: 10px 12px;}
+.box-form .input-group .form-control{width: 99%; font-size: 22px;}
+.box-form .input-search .input-group-btn{right: 4px;}
+.search-bar .form-horizontal .form-group{
+    padding: 0;
+}
+.search-bar .input-search{
+    opacity: 0.3;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+
+}
+.search-bar .input-search:hover{
+    opacity: 0.9; 
+    background: #fff;
+
+}
+.search-bar .input-search input{
+    border-color: #fff;
+    background: #fff;
+}
+.search-bar .input-search input{
+    height: 60px;
+}
+.input-search .input-group-btn button{
+    height: 59px;
+}
+
+.btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary{
+    box-shadow: none!important;
+}
+
+@media (min-width: 767px){
+    .page-aside{width: 30%;}
+    .be-aside .main-content {
+        margin-left: 36%;
+    }
+
+}
+@media (max-width: 765px){
+    .search-bar{display: none;}
+}
+
+
+
+.be-notifications {
+    width: 100%;
+    border-radius: 3px;
+    padding: 0;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    border: 1px solid #e0e0e0;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.be-notifications .title {
+    font-size: 13px;
+    color: #8a8a8a;
+    text-align: center;
+    padding: 10px 0 8px;
+    border-bottom: 1px solid #ebebeb;
+}
+.be-notifications .title .badge {
+    font-size: 10px;
+    line-height: 10px;
+    vertical-align: middle;
+    margin-left: 4px;
+    background-color: #e4e4e4;
+    color: #8a8a8a;
+    min-width: 17px;
+    height: 17px;
+    text-align: center;
+    padding: 3px 6px;
+}
+.be-notifications .title .badge-new {
+    background-color: #4285f4;
+    border-color: #4285f4;
+    color: #ffffff;
+}
+.be-notifications .footer a {
+    background-color: #fafafa;
+    font-size: 13px;
+    color: #8a8a8a;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #ebebeb;
+    display: block;
+    outline: none;
+}
+.be-notifications .notification:hover > a .notification-info .user-name{color: #fff;}
+
+.user-display-bg {
+    max-height: 100px;
+    overflow: hidden;
+}
+
+
+
+
+/* Buzz */
+@-webkit-keyframes hvr-buzz {
+    50% {
+        -webkit-transform: translateX(3px) rotate(2deg);
+        transform: translateX(3px) rotate(2deg);
+    }
+    100% {
+        -webkit-transform: translateX(-3px) rotate(-2deg);
+        transform: translateX(-3px) rotate(-2deg);
+    }
+}
+@keyframes hvr-buzz {
+    50% {
+        -webkit-transform: translateX(3px) rotate(2deg);
+        transform: translateX(3px) rotate(2deg);
+    }
+    100% {
+        -webkit-transform: translateX(-3px) rotate(-2deg);
+        transform: translateX(-3px) rotate(-2deg);
+    }
+}
+.hvr-buzz {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+
+
+    -webkit-animation-name: hvr-buzz;
+    animation-name: hvr-buzz;
+    -webkit-animation-duration: 0.15s;
+    animation-duration: 0.15s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+.hvr-buzz:hover, .hvr-buzz:focus, .hvr-buzz:active {
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
 }
