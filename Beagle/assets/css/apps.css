@@ -437,7 +437,7 @@
     border-top-color: #000000;
     box-shadow: inset 0 2px 0 #000000;
 }
-.appDashboard .hvr-buzz {color: #000000;}
+.appDashboard .action-alert {color: #000000;}
 .appDashboard .be-notifications .notification:hover{background-color: #000000;}
 .appDashboard .be-notifications .notification > a .notification-info .user-name{color: #000000;}
 
@@ -614,7 +614,7 @@
     border-top-color: #800080;
     box-shadow: inset 0 2px 0 #800080;
 }
-.appSocial .hvr-buzz {color: #800080;}
+.appSocial .action-alert {color: #800080;}
 .appSocial .be-notifications .notification:hover{background-color: #800080;}
 .appSocial .be-notifications .notification > a .notification-info .user-name{color: #800080;}
 
@@ -794,7 +794,7 @@
     border-top-color: #3cb371;
     box-shadow: inset 0 2px 0 #3cb371;
 }
-.appGovernanca .hvr-buzz {color: #3cb371;}
+.appGovernanca .action-alert {color: #3cb371;}
 .appGovernanca .be-notifications .notification:hover{background-color: #3cb371;}
 .appGovernanca .be-notifications .notification > a .notification-info .user-name{color: #3cb371;}
 
@@ -971,7 +971,7 @@
     border-top-color: #2f2f7e;
     box-shadow: inset 0 2px 0 #2f2f7e;
 }
-.appRh .hvr-buzz {color: #2f2f7e;}
+.appRh .action-alert {color: #2f2f7e;}
 .appRh .be-notifications .notification:hover{background-color: #2f2f7e;}
 .appRh .be-notifications .notification > a .notification-info .user-name{color: #2f2f7e;}
 
@@ -1154,7 +1154,7 @@
     border-top-color: #cd5b45;
     box-shadow: inset 0 2px 0 #cd5b45;
 }
-.appFopag .hvr-buzz {color: #cd5b45;}
+.appFopag .action-alert {color: #cd5b45;}
 .appFopag .be-notifications .notification:hover{background-color: #cd5b45;}
 .appFopag .be-notifications .notification > a .notification-info .user-name{color: #cd5b45;}
 
@@ -1335,7 +1335,7 @@
     border-top-color: #FB8C00;
     box-shadow: inset 0 2px 0 #FB8C00;
 }
-.appOnyxPrev .hvr-buzz {color: #FB8C00;}
+.appOnyxPrev .action-alert {color: #FB8C00;}
 .appOnyxPrev .be-notifications .notification:hover{background-color: #FB8C00;}
 .appOnyxPrev .be-notifications .notification > a .notification-info .user-name{color: #FB8C00;}
 
@@ -1518,7 +1518,7 @@
     border-top-color: #66cdaa;
     box-shadow: inset 0 2px 0 #66cdaa;
 }
-.appRecad .hvr-buzz {color: #66cdaa;}
+.appRecad .action-alert {color: #66cdaa;}
 .appRecad .be-notifications .notification:hover{background-color: #66cdaa;}
 .appRecad .be-notifications .notification > a .notification-info .user-name{color: #66cdaa;}
 
@@ -1701,7 +1701,7 @@
     border-top-color: #ffc04c;
     box-shadow: inset 0 2px 0 #ffc04c;
 }
-.appProtocolo .hvr-buzz {color: #ffc04c;}
+.appProtocolo .action-alert {color: #ffc04c;}
 .appProtocolo .be-notifications .notification:hover{background-color: #ffc04c;}
 .appProtocolo .be-notifications .notification > a .notification-info .user-name{color: #ffc04c;}
 
@@ -1878,7 +1878,7 @@
     border-top-color: #ff7f50;
     box-shadow: inset 0 2px 0 #ff7f50;
 }
-.appWebsite .hvr-buzz {color: #ff7f50;}
+.appWebsite .action-alert {color: #ff7f50;}
 .appWebsite .be-notifications .notification:hover{background-color: #ff7f50;}
 .appWebsite .be-notifications .notification > a .notification-info .user-name{color: #ff7f50;}
 
@@ -2061,7 +2061,7 @@
     border-top-color: #400040;
     box-shadow: inset 0 2px 0 #400040;
 }
-.appNfse .hvr-buzz {color: #400040;}
+.appNfse .action-alert {color: #400040;}
 .appNfse .be-notifications .notification:hover{background-color: #400040;}
 .appNfse .be-notifications .notification > a .notification-info .user-name{color: #400040;}
 
@@ -2243,7 +2243,7 @@
     border-top-color: #ff7373;
     box-shadow: inset 0 2px 0 #ff7373;
 }
-.appLicitacoes .hvr-buzz {color: #ff7373;}
+.appLicitacoes .action-alert {color: #ff7373;}
 .appLicitacoes .be-notifications .notification:hover{background-color: #ff7373;}
 .appLicitacoes .be-notifications .notification > a .notification-info .user-name{color: #ff7373;}
 
@@ -2425,7 +2425,7 @@
     border-top-color: #3acecc;
     box-shadow: inset 0 2px 0 #3acecc;
 }
-.appDrive .hvr-buzz {color: #3acecc;}
+.appDrive .action-alert {color: #3acecc;}
 .appDrive .be-notifications .notification:hover{background-color: #3acecc;}
 .appDrive .be-notifications .notification > a .notification-info .user-name{color: #3acecc;}
 
@@ -2607,7 +2607,7 @@
     border-top-color: #483d8b;
     box-shadow: inset 0 2px 0 #483d8b;
 }
-.appAtuarial .hvr-buzz {color: #483d8b;}
+.appAtuarial .action-alert {color: #483d8b;}
 .appAtuarial .be-notifications .notification:hover{background-color: #483d8b;}
 .appAtuarial .be-notifications .notification > a .notification-info .user-name{color: #483d8b;}
 
@@ -2789,7 +2789,7 @@
     border-top-color: #f442eb;
     box-shadow: inset 0 2px 0 #f442eb;
 }
-.appBiometria .hvr-buzz {color: #f442eb;}
+.appBiometria .action-alert {color: #f442eb;}
 .appBiometria .be-notifications .notification:hover{background-color: #f442eb;}
 .appBiometria .be-notifications .notification > a .notification-info .user-name{color: #f442eb;}
 
@@ -2973,7 +2973,7 @@
     border-top-color: #4285f4;
     box-shadow: inset 0 2px 0 #4285f4;
 }
-.appInvest .hvr-buzz {color: #4285f4;}
+.appInvest .action-alert {color: #4285f4;}
 .appInvest .be-notifications .notification:hover{background-color: #4285f4;}
 .appInvest .be-notifications .notification > a .notification-info .user-name{color: #4285f4;}
 
@@ -3154,7 +3154,7 @@
     border-top-color: #ad854a;
     box-shadow: inset 0 2px 0 #ad854a;
 }
-.appConsig .hvr-buzz {color: #ad854a;}
+.appConsig .action-alert {color: #ad854a;}
 .appConsig .be-notifications .notification:hover{background-color: #ad854a;}
 .appConsig .be-notifications .notification > a .notification-info .user-name{color: #ad854a;}
 
@@ -3210,11 +3210,6 @@
 
 .material-icons.cloud_upload{font-size: 54px;}
 
-
-
-
-
-
 .dados h1{font-size: 36px;}
 .dados p{font-size: 16px;}
 
@@ -3229,7 +3224,7 @@
     float: right;
 }
 
-
+.form-control:focus{border-color:#bdc0c7;}
 .list-group-item{border-left: 0; border-right: 0; }
 
 /** overwriting arrow down  **/
@@ -3394,3 +3389,5 @@
     -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
 }
+.material-icons.action-alert{padding: 20px 0 0 10px;}
+
